@@ -41,6 +41,7 @@ paginate = 10
     url  = "/contact/"
     weight = 4
 
+
 # Top bar social links menu
 
 [[menu.topbar]]

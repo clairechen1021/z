@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+        
+        <div id="email-banner">
+          <h4>Keep in Touch</h4>
+          <div class="email-b-con">
+            <a href="">
+              img-banner
+            </a>
+          </div>
+        </div>
+        <div id="mail-lists">
+          
+              <h5 class="mail-title">Mailing Lists</h5>
+              <p class='mail-descript'>
+                  paiaifh  yaiod   dfxbhstrfa aer
+                  ghwsrtgwefqe  awergqar5aq fjhio uiahua  sjhh   uhuuhu  xfth efW aw
+                  f tyjdt esrgearfeaz auirfhaoef hhhhj kdffff  ffff fffffffffff
+                  fffffffffffauiewfufhaiojsearf aerfgaerfAQ4EGTFauirfuiaqehhiho AWEYFgwedudhhuAWEUIFDuhdfae7fuhaweeeeeeeef
+                
+              </p>
+              <table class='mail-table' width='600px'>
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                    <tbody>
+                      {{range where $.Page.Site.Pages "Type" "maillist"}}
+                      {{if.Params}}
+                      <tr>
+                        <td><a href="{{.Params.websitelink}}">{{.Params.listname}}</a></td>
+                        <td>{{.Params.emailaddress}}</td>
+                        <td>{{.Params.description}}</td>
+
+                      </tr>
+                      {{end}}
+                      {{end}}
+
+                    </tbody>
+                  </thead>
+              </table>
+         
+        </div>
+        
+        
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
