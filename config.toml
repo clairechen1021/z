@@ -18,28 +18,77 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    identifier="home"
-    name = "Home"
-    url  = "/"
+    identifier="download"
+    name = "Download"
+    url  = "/download"
     weight = 1
 
 [[menu.main]]
-    identifier="blog"
-    name = "Blog"
-    url  = "/blog/"
+    identifier="documentation"
+    name = "Documentation"
+    url  = "/documentation/"
     weight = 2
 
 [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq/"
+    identifier = "community"
+    name = "Community"
     weight = 3
+    hasChildren = true
 
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url  = "/contact/"
+    identifier = "contribution"
+    name = "Contribution"
+    url  = "/contribution/"
+    weight = 1
+    parent = 'community'
+
+[[menu.main]]
+    identifier = "fundation"
+    name = "Fundation"
+    url  = "/fundation/"
+    weight = 2
+    parent = 'community'
+
+[[menu.main]]
+    identifier = "mailinglists"
+    name = "Mailing Lists"
+    url  = "/mailinglists/"
+    weight = 3
+    parent = 'community'
+
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url  = "/blog/"
     weight = 4
+    parent = 'community'
+
+[[menu.main]]
+    identifier = "recent"
+    name = "Recent"
+    weight = 4
+    hasChildren = true
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url  = "/events/"
+    weight = 1
+    parent = 'recent'
+
+[[menu.main]]
+    identifier = "news"
+    name = "News"
+    url  = "/news/"
+    weight = 2
+    parent = 'recent'
+
+[[menu.main]]
+    identifier = "lang"
+    name = "中文"
+    url  = "/zh"
+    weight = 5
+
 
 # Top bar social links menu
 
@@ -144,6 +193,9 @@ paginate = 10
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
+[parmas.cards]
+    enable = true
+    title = "news"
 
 [params.features]
     enable = true
