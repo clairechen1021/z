@@ -1,3 +1,176 @@
+/* email-list */
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+}
+  #email-banner{
+    height:550px;
+    width: 100%;
+    border: 1px solid white;
+    
+  }
+  #email-banner>h4{
+    font-family: Helvetica;
+    font-size: 44px;
+    line-height: 62px;
+    text-align: center ;
+    height: 62px;
+    color:#000;
+    margin: 100px 0 3px 0;
+
+  }
+  #email-banner .email-b-con{
+    
+    margin:0 auto 0 ;
+    height: 385px;
+    width: 1108px;
+    background:red;
+    position: relative;
+  }
+  #mail-lists{
+    width: 100%;
+    padding-top: 100px;
+  }
+  #mail-lists h5{
+    font-family: Helvetica;
+    color:#000;
+    line-height: 48px;
+    height: 48px;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 28px;
+
+  }
+  #mail-lists .mail-descript{
+    
+    width: 1410px;
+    height: 44px;
+    font-size: 16px;
+    opacity: 0.7;
+    font-family: Helvetica-Light;
+    color:#000;
+    margin:0 auto;
+    
+   }
+  .mail-table{
+  width: 994px;
+  
+  margin: 40px auto 0;
+  
+  }
+  .mail-table tr{
+    height: 55px;
+
+  }
+  .mail-table>tbody>tr>td{
+    /* opacity: 0.7 !important; */
+    font-family: Helvetica-Light，Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:rgba(0,0,0,0.7);
+
+  }
+  .mail-table tbody tr:nth-child(2n){
+    background:rgba(255,255,255,1);
+  }
+  .mail-table tbody tr:nth-child(2n-1){
+    background:rgba(0,0,0,0.05);
+    
+  }
+  .mail-table>tbody tr td:first-child>a{
+    margin-left: 61px;
+  }
+  .mail-table>thead tr th:first-child{
+    text-indent: 61px;
+  }
+  .mail-table thead{
+    background: #fff;
+    font-family:  Helvetica;
+    color:#000;
+    font-size: 18px;
+
+  }
+  .mail-tips{
+    opacity: 0.7;
+    font-size: 16px;
+    color:#000;
+    line-height: 22px;
+    height: 22px;
+    font-family: Helvetica-Light,Helvetica;
+    width: 1410px;
+    margin:60px auto 57px;
+  }
+  #mail-step{
+    width: 100%;
+
+  }
+  .mail-step-img{
+    width: 1410px;
+    height: 996px;
+    background: pink;
+    margin: 0 auto;
+    position: relative;
+
+  }
+  #mail-step .mail-step-img p{
+    font-size:16px;
+    font-family:Helvetica-Light,Helvetica;
+    font-weight:300;
+    color:rgba(0,0,0,1);
+    line-height:22px;
+    margin: 0;
+  }
+  .mail-step1{
+    position: absolute;
+    top:100px;
+    left:100px;
+    width:267px;
+    height:44px;
+
+  }
+  .mail-step2{
+    position: absolute;
+    top:150px;
+    left:400px;
+    width:276px;
+    height:44px;
+
+  }
+  .mail-step3{
+    position: absolute;
+    top:300px;
+    right:0;
+    width:265px;
+    height:66px;
+
+  }
+  .mail-step4{
+    position: absolute;
+    top:300px;
+    left:800px;
+    width:268px;
+    height:44px;
+
+  }
+  .mail-step5{
+    position: absolute;
+    top:500px;
+    left:100px;
+    width:315px;
+    height:22px;
+
+  }
+  .mail-step6{
+    position: absolute;
+    top:750px;
+    left:600px;
+    width:284px;
+    height:66px;
+
+  }
+  
+  
+
+/* ------以上为email-list的样式------- */
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
@@ -19,9 +192,31 @@
 }
 .pull-right {
   float: right !important;
+  text-align: right;
+}
+.pull-right a {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
 }
 .pull-left {
   float: left !important;
+}
+.pull-left .logo {
+  width: 150px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.pull-left .logo_bottom {
+  display: flex;
+  font-size: 14px;
+  color: #fff;
+}
+.pull-left .logo_bottom .small_icon {
+  margin-right: 10px;
 }
 .hide {
   display: none !important;
@@ -2670,11 +2865,10 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
-  padding: 50px 0;
-  color: #999999;
+  height: 120px;
+  /* color: #999999; */
 }
-#footer h1,
+/* #footer h1,
 #footer h2,
 #footer h3,
 #footer h4,
@@ -2764,16 +2958,33 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer .social a:hover {
   color: #38a7bb;
-}
+} */
 #copyright {
-  background: #333;
+  background: #5A9B83;
   color: #ccc;
-  padding: 50px 0;
+  padding: 18px 0;
   font-size: 12px;
   line-height: 28px;
 }
 #copyright p {
   margin: 0;
+}
+
+#copyright p span.block {
+  display: block;
+  color: #BCD6CC;
+}
+#copyright .line {
+  border: 1px solid #fff;
+  width: 1px;
+  height: 20px;
+  margin: 0 10px;
+}
+#copyright p i {
+  font-style: normal;
+}
+#copyright .size_14px {
+  font-size: 14px;
 }
 @media (max-width: 991px) {
   #copyright p {
@@ -3727,4 +3938,98 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+
+
+/* ------------------------------------------------新增模块分割线-------------------------------------------- */
+/* contribution新增模块 */
+.margin_auto {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contri_content {
+  font-family: Helvetica;
+  background-color: #fff;
+}
+
+#contri_content > .contri_top {
+  padding: 100px 0 0 0;
+}
+
+p.welcome {
+  font-size: 44px;
+  color: #000000;
+  line-height: 62px;
+  margin: 0;
+}
+
+p.start {
+  font-size: 24px;
+  color: #000000;
+  line-height: 34px;
+  margin-top: 15px;
+  margin-bottom: 27px;
+}
+
+.contri_top_bg {
+  width: 898px;
+  height: 312px;
+  background-color: green;
+}
+
+.contri_bottom {
+  position: relative;
+  height: 1848px;
+  /* background-color: skyblue; */
+}
+
+.step {
+  position: absolute;
+  /* background-color: #ccc; */
+  text-align: left;
+  width: 390px;
+}
+
+.step01 {
+  left: 18.8%;
+  top: 18.2%;
+}
+
+.step_title {
+  font-size: 18px;
+  color: #000;
+  line-height: 26px;
+}
+
+.step_intro {
+  opacity: .7;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+.step02 {
+  left: 39.6%;
+  top: 8.4%;
+}
+.step03 {
+  left: 66.4%;
+  top: 19.9%;
+}
+.step04 {
+  left: 34.5%;
+  top: 33.8%;
+}
+.step05 {
+  left: 66.4%;
+  top: 41.1%;
+}
+.step06 {
+  left: 18.8%;
+  top: 49.6%;
+}
+.step07 {
+  left: 66.4%;
+  top: 63.2%;
 }
