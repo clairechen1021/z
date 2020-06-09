@@ -1,10 +1,11 @@
 weight: 3
-title: "News3News3News3"
+title: "News3 News3 News3"
 description: >
-  <ul class="list-style-none">
-    <li>Clean and elegant design</li>
-    <li>Full width and boxed mode</li>
-    <li>Easily readable Roboto font and awesome icons</li>
-    <li>7 preprepared colour variations</li>
-  </ul>
-image: "img/carousel/template-easy-customize.png"
+  <span class="cards-author">author, media</span>
+  <span class="cards-data">JUL 7,20</span>
+  <p class="cards-description">
+    Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2.
+  Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2...
+  </p>
+  <a herf="/">View More...</a>
+image: "/img/cards/template-easy-customize.png"

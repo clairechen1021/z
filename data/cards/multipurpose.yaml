@@ -1,4 +1,11 @@
 weight: 1
-title: "News1News1News1"
-description: "<p>Business. Corporate. Agency.<br>Portfolio. Blog. E-commerce.</p>"
-image: "img/carousel/template-homepage.png"
+title: "News1 News1 News1"
+description: >
+    <span class="cards-author">author, media</span>
+    <span class="cards-data">JUL 7,20</span>
+    <p class="cards-description">
+    Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2.
+    Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2...
+    </p>
+    <a>View More...</a>
+image: "/img/cards/template-homepage.png"
