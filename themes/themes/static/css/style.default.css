@@ -1,5 +1,5 @@
 /* email-list */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
   margin:0;
 }
   #email-banner{
@@ -40,53 +40,135 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 28px;
 
   }
-  .mail-table{
-  width: 600px;
-  height: 200px;
-  margin: 0 auto;
-  background:#ccc;
-  }
   #mail-lists .mail-descript{
     
     width: 1410px;
     height: 44px;
-    /* position: relative;
-    top: 0;
-    left: 50%;
-    margin-left:-705px; */
+    font-size: 16px;
+    opacity: 0.7;
+    font-family: Helvetica-Light;
+    color:#000;
     margin:0 auto;
     
    }
-   
-  /* #mail-lists{
-    width: 100%;
-   
-    padding-top: 100px;
+  .mail-table{
+  width: 994px;
+  
+  margin: 40px auto 0;
+  
+  }
+  .mail-table tr{
+    height: 55px;
 
   }
-  #mail-lists h5{
+  .mail-table>tbody>tr>td{
+    /* opacity: 0.7 !important; */
+    font-family: Helvetica-Light，Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:rgba(0,0,0,0.7);
+
+  }
+  .mail-table tbody tr:nth-child(2n){
+    background:rgba(255,255,255,1);
+  }
+  .mail-table tbody tr:nth-child(2n-1){
+    background:rgba(0,0,0,0.05);
     
-    font-family: Helvetica;
+  }
+  .mail-table>tbody tr td:first-child>a{
+    margin-left: 61px;
+  }
+  .mail-table>thead tr th:first-child{
+    text-indent: 61px;
+  }
+  .mail-table thead{
+    background: #fff;
+    font-family:  Helvetica;
     color:#000;
-    line-height: 48px;
-    height: 48px;
-    font-size: 34px;
-    text-align: center;
-    
-    margin-bottom: 28px;
+    font-size: 18px;
 
   }
-  #mail-lists .mail-descript{
-   width: 100%;
-   height: 44px;
-   
-
-  }
-  #mail-lists .mail-descript div{
+  .mail-tips{
+    opacity: 0.7;
+    font-size: 16px;
+    color:#000;
+    line-height: 22px;
+    height: 22px;
+    font-family: Helvetica-Light,Helvetica;
     width: 1410px;
-    height: 100%;
-    margin: auto auto;
-  } */
+    margin:60px auto 57px;
+  }
+  #mail-step{
+    width: 100%;
+
+  }
+  .mail-step-img{
+    width: 1410px;
+    height: 996px;
+    background: pink;
+    margin: 0 auto;
+    position: relative;
+
+  }
+  #mail-step .mail-step-img p{
+    font-size:16px;
+    font-family:Helvetica-Light,Helvetica;
+    font-weight:300;
+    color:rgba(0,0,0,1);
+    line-height:22px;
+    margin: 0;
+  }
+  .mail-step1{
+    position: absolute;
+    top:100px;
+    left:100px;
+    width:267px;
+    height:44px;
+
+  }
+  .mail-step2{
+    position: absolute;
+    top:150px;
+    left:400px;
+    width:276px;
+    height:44px;
+
+  }
+  .mail-step3{
+    position: absolute;
+    top:300px;
+    right:0;
+    width:265px;
+    height:66px;
+
+  }
+  .mail-step4{
+    position: absolute;
+    top:300px;
+    left:800px;
+    width:268px;
+    height:44px;
+
+  }
+  .mail-step5{
+    position: absolute;
+    top:500px;
+    left:100px;
+    width:315px;
+    height:22px;
+
+  }
+  .mail-step6{
+    position: absolute;
+    top:750px;
+    left:600px;
+    width:284px;
+    height:66px;
+
+  }
+  
+  
 
 /* ------以上为email-list的样式------- */
 .clearfix:before,

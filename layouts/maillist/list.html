@@ -27,22 +27,24 @@
           
               <h5 class="mail-title">Mailing Lists</h5>
               <p class='mail-descript'>
-                  paiaifh  yaiod   dfxbhstrfa aer
-                  ghwsrtgwefqe  awergqar5aq fjhio uiahua  sjhh   uhuuhu  xfth efW aw
-                  f tyjdt esrgearfeaz auirfhaoef hhhhj kdffff  ffff fffffffffff
-                  fffffffffffauiewfufhaiojsearf aerfgaerfAQ4EGTFauirfuiaqehhiho AWEYFgwedudhhuAWEUIFDuhdfae7fuhaweeeeeeeef
+                Mailing list is one of the most common communication ways in the world of open 
+                source. Welcome to join the openLooKeng mailing lists and then you can 
+                communicate with us through email (The common communication language is English). 
+                The mailing lists of openLooKeng community are listed as follows:
                 
               </p>
-              <table class='mail-table' width='600px'>
+              <table class='mail-table' >
                   <thead>
                     <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
+                      <th>List Name</th>
+                      <th>Email Address</th>
+                      <th>Description</th>
                     </tr>
-                    <tbody>
-                      {{range where $.Page.Site.Pages "Type" "maillist"}}
-                      {{if.Params}}
+                  </thead>
+                  <tbody>
+                      {{range  where $.Page.Site.Pages "Type" "maillist"}}
+                  
+                      {{if .Params}}
                       <tr>
                         <td><a href="{{.Params.websitelink}}">{{.Params.listname}}</a></td>
                         <td>{{.Params.emailaddress}}</td>
@@ -52,12 +54,21 @@
                       {{end}}
                       {{end}}
 
-                    </tbody>
-                  </thead>
+                  </tbody>
+                  
               </table>
-         
+              <p class='mail-tips'>If you’re the first time subscribing to the mailing lists, please follow the guidance below:</p>
         </div>
-        
+       <div id="mail-step">
+         <div class="mail-step-img">
+           <p class="mail-step1">{{.Params.step1}}</p>
+           <p class="mail-step2">{{.Params.step2}}</p>
+           <p class="mail-step3">{{.Params.step3}}</p>
+           <p class="mail-step4">{{.Params.step4}}</p>
+           <p class="mail-step5">{{.Params.step5}}</p>
+           <p class="mail-step6">{{.Params.step6}}</p>
+         </div>
+       </div>
         
         {{ partial "footer.html" . }}
 
