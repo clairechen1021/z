@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foundations on Universal</title>
+    <link>/foundation/</link>
+    <description>Recent content in Foundations on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/foundation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/foundation/committee/commitee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation/committee/commitee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/foundation/secretary/secretary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation/secretary/secretary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/foundation/sig/sig1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation/sig/sig1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/foundation/user/user1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation/user/user1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

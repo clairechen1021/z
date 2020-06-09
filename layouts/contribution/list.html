@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        <!-- contri_content -->
+        <div id="contri_content" class="margin_auto">
+          <!-- 内容上半部模块 -->
+          <div class="contri_top margin_auto">
+            <p class="welcome">
+              Welcome to the openLooKeng Contribution Community
+            </p>
+            <p class="start">
+              Start your open source journey with the trending developers here!
+            </p>
+            <div class="contri_top_bg margin_auto" style="color: yellow; font-size: 24px;">Hello,this is a background that will be replaced by an image.</div>
+          </div>
+          <!-- 内容下半部模块 -->
+          <div class="contri_bottom margin_auto">
+            {{ if .Params }}
+              <div class="step step01">
+                <span class="step_title">{{ .Params.step01_title }}</p>
+                <span class="step_intro">{{ .Params.step01_introduction }}</span>
+              </div>
+              <div class="step step02">
+                <span class="step_title">{{ .Params.step02_title }}</p>
+                <span class="step_intro">{{ .Params.step02_introduction }}</span>
+              </div>
+              <div class="step step03">
+                <span class="step_title">{{ .Params.step03_title }}</p>
+                <span class="step_intro">
+                  {{ .Params.step03_introduction01 }}
+                  <br />
+                  <br />
+                  {{ .Params.step03_introduction02 }}
+                </span>
+              </div>
+              <div class="step step04">
+                <span class="step_title">{{ .Params.step04_title }}</p>
+                <span class="step_intro">
+                  {{ .Params.step04_introduction }}
+                </span>
+              </div>
+              <div class="step step05">
+                <span class="step_title">{{ .Params.step05_title }}</p>
+                <span class="step_intro">
+                  {{ .Params.step05_introduction01 }}
+                  <br /><br />
+                  {{ .Params.step05_introduction02 }}
+                </span>
+              </div>
+              <div class="step step06">
+                <span class="step_title">{{ .Params.step06_title }}</p>
+                <span class="step_intro">
+                  {{ .Params.step06_introduction01 }}<br />
+                  {{ .Params.step06_introduction02 }}<br />
+                  {{ .Params.step06_introduction03 }}<br />
+                  {{ .Params.step06_introduction04 }}<br /><br />
+                  {{ .Params.step06_introduction05 }}<br />
+                  {{ .Params.step06_introduction06 }}<br />
+                  {{ .Params.step06_introduction07 }}<br />
+                  {{ .Params.step06_introduction08 }}<br />
+                  {{ .Params.step06_introduction09 }}
+                </span>
+              </div>
+              <div class="step step07">
+                <span class="step_title">{{ .Params.step07_title }}</p>
+                <span class="step_intro">
+                  {{ .Params.step07_introduction }}
+                </span>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+        
+        <div>
+        </div>
+        {{ partial "footer.html" . }}
+
+    </div>
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
