@@ -1,3 +1,12 @@
 
 [main_email_subscribe_buttontext]
 other = "Subscribe"
+
+[main_blog_title]
+other = "Blog"
+
+[main_list_more]
+other = "View More"
+
+[main_news_title]
+other = "News"

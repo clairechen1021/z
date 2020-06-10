@@ -1,0 +1,21 @@
+weight: 1
+title: "OpenLooKeng XX.XX is Released!"
+description: >
+    <div class="download-descript">
+        <h3>Download OpenLooKeng XX.XX</h3>
+        <p>
+            The current openLooKeng release version is XX.XX. See the Release Notes for more information.<br>
+            Visit Deploying OpenLooKeng for deployment instructions.
+        </p>
+    </div>
+    <div class="download-button">
+        <div class="download-btn btn1">
+            <h4>OpenLooKeng for XXX</h4>
+            <button>openlookeng-cli-xx.xx.jar</button>
+        </div>
+        <div class="download-btn btn2">
+            <h4>OpenLooKeng for XXX</h4>
+            <button>openlookeng-server-xx.xx.tar</button>
+        </div>
+    </div>
+image: "/img/banners/Banner.png"
