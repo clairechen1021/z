@@ -13,9 +13,17 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
-[menu]
 
-# Main menu
+[languages]
+
+[languages.en]
+    languageCode = "en-us"
+    contentDir = "content/en"
+
+[languages.zh]
+    languageCode = "zh-cn"
+    contentDir = "content/zh"
+
 
 [[menu.main]]
     identifier="download"
@@ -52,7 +60,7 @@ paginate = 10
 [[menu.main]]
     identifier = "mailinglists"
     name = "Mailing Lists"
-    url  = "/mailinglists/"
+    url  = "/maillists/"
     weight = 3
     parent = 'community'
 
@@ -87,6 +95,80 @@ paginate = 10
     identifier = "lang"
     name = "中文"
     url  = "/zh"
+    weight = 5
+
+
+# Chinese Menu
+[[languages.zh.menu.main]]
+    identifier="download"
+    name = "下载"
+    url  = "/download"
+    weight = 1
+
+[[languages.zh.menu.main]]
+    identifier="documentation"
+    name = "文档"
+    url  = "/documentation/"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "community"
+    name = "社区"
+    weight = 3
+    hasChildren = true
+
+[[languages.zh.menu.main]]
+    identifier = "contribution"
+    name = "贡献指南"
+    url  = "/contribution/"
+    weight = 1
+    parent = 'community'
+
+[[languages.zh.menu.main]]
+    identifier = "fundation"
+    name = "组织架构"
+    url  = "/fundation/"
+    weight = 2
+    parent = 'community'
+
+[[languages.zh.menu.main]]
+    identifier = "mailinglists"
+    name = "邮件列表"
+    url  = "/maillists/"
+    weight = 3
+    parent = 'community'
+
+[[languages.zh.menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url  = "/blog/"
+    weight = 4
+    parent = 'community'
+
+[[languages.zh.menu.main]]
+    identifier = "recent"
+    name = "动态"
+    weight = 4
+    hasChildren = true
+
+[[languages.zh.menu.main]]
+    identifier = "events"
+    name = "活动"
+    url  = "/events/"
+    weight = 1
+    parent = 'recent'
+
+[[languages.zh.menu.main]]
+    identifier = "news"
+    name = "新闻"
+    url  = "/news/"
+    weight = 2
+    parent = 'recent'
+
+[[languages.zh.menu.main]]
+    identifier = "lang"
+    name = "EN"
+    url  = "/en"
     weight = 5
 
 
@@ -129,8 +211,6 @@ paginate = 10
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
-    # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -152,24 +232,14 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
-
+    copyright = "Copyright @openLooKeng 2020. All Rights Reserved."
+    provide = "The openLooKeng project is provided under the "
+    license = "license"
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
