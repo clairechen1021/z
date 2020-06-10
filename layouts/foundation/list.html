@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+        
+        <div id="fundation-banner">
+          <h4>Meet our Team</h4>
+          <div class="foundation-b-con">
+            <a href="">
+              img-banner
+            </a>
+          </div>
+        </div>
+        <div id="foundation-content" >
+          <div class="foundation-con clearfix">
+              <div class="foundation-aside ">
+                  {{ partial "sidebar.html" . }}
+              </div>
+              <div class="foundation-list">
+                   {{range  where $.Page.Site.Pages "Type" "committee"}} 
+                  
+                  <div class="committee-list">
+                      {{.Params.email}}
+                      rftgsr
+                  </div>
+                  {{end}}
+              </div>
+          </div>
+          
+        </div>
+       
+        
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

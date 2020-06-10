@@ -2,23 +2,23 @@
 h1,h2,h3,h4,h5,h6,p{
   margin:0;
 }
-  #email-banner{
+  #email-banner,#fundation-banner{
     height:550px;
     width: 100%;
-    border: 1px solid white;
+    
     
   }
-  #email-banner>h4{
+  #email-banner>h4,#fundation-banner>h4{
     font-family: Helvetica;
     font-size: 44px;
     line-height: 62px;
     text-align: center ;
-    height: 62px;
+    /* height: 62px; */
     color:#000;
-    margin: 100px 0 3px 0;
+    padding: 100px 0 3px 0 ;
 
   }
-  #email-banner .email-b-con{
+  #email-banner .email-b-con,#fundation-banner .foundation-b-con{
     
     margin:0 auto 0 ;
     height: 385px;
@@ -168,9 +168,29 @@ h1,h2,h3,h4,h5,h6,p{
 
   }
   
-  
-
 /* ------以上为email-list的样式------- */
+
+/* foundation页面样式 */
+
+#foundation-content{
+  width: 100%;
+}
+.foundation-con{
+  width: 1410px;
+  background:pink;
+  margin:0 auto;
+}
+.foundation-aside{
+  width: 25%;
+  background: skyblue;
+  float: left;
+}
+.foundation-list{
+  width: 75%;
+  background:blue;
+  float: right;
+}
+/* 以上为foundation页面样式 */
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
