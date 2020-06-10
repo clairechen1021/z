@@ -4033,3 +4033,54 @@ p.start {
   left: 66.4%;
   top: 63.2%;
 }
+
+/* -----------------------------------------首页banner模块----------------------------------------- */
+.home_banner {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  width: 100%;
+  height: 550px;
+  background-color: yellow;
+  text-align: center;
+  color:rgba(0,0,0,1);
+  padding: 100px 0 0 0;
+  margin-bottom: 100px;
+}
+
+.home_banner .banner_p1 {
+  width:947px;
+  height:62px;
+  line-height:62px;
+  font-size: 44px;
+}
+.home_banner .banner_p2 {
+  width:786px;
+  height:34px;
+  font-size:24px;
+  line-height:34px;
+}
+
+.home_banner .get_start {
+  width:130px;
+  height:30px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_banner .get_start a {
+  width:82px;
+  height:16px;
+  font-size:16px;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:16px;
+}
+.home_banner .home_img {
+  width:840px;
+  height:292px;
+  background-color: green;
+  margin: auto;
+}
