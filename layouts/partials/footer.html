@@ -16,12 +16,7 @@
                   <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
     
                   <!-- {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>. -->
-                  <a href="#">Privacy</a><i class="line"></i>
-                  <a href="#">Trademark</a><i class="line"></i>
-                  <a href="#">Terms of Service</a>
-                  {{ if isset .Site.Params "copyright" }}
-                  <span class="block size_14px">{{ .Site.Params.copyright | safeHTML }}</span>
-                  {{ end }}
+                  {{ .Site.Params.copyright.text | safeHTML }}
                   
                   <span class="block">
                     <i class="size_14px">{{ .Site.Params.provide | safeHTML }}</i><a href="#">Apache 2.0 </a><i>{{ .Site.Params.license | safeHTML }}</i>

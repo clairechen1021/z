@@ -2,6 +2,17 @@
 [main_email_subscribe_buttontext]
 other = "Subscribe"
 
+[home_banner_p1]
+other = "The Simpler Big Data Engine You’re Looking For"
+
+[home_banner_p2]
+other = "Straightforward Experience, High Performance, Enterprise-level Reliability"
+
+[home_getStart]
+other = "Get Started"
+
+[home_getStartLink]
+other = "#"
 [main_blog_title]
 other = "Blog"
 

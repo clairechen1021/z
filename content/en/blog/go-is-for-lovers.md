@@ -5,6 +5,7 @@ tags = ["go"]
 categories = ["programming"]
 banner = "img/banners/banner-2.jpg"
 facebook_author = "GolangSociety"
+author = "GolangSociety"
 description = "This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content."
 +++
 
