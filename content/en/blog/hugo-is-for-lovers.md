@@ -5,6 +5,8 @@ tags = ["hugo"]
 categories = ["pseudo"]
 banner = "img/banners/banner-3.jpg"
 author = "mike"
+description = "This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content."
+
 +++
 
 ## Step 1. Install Hugo

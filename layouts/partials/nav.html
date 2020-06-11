@@ -27,7 +27,9 @@
                   {{ $topLevel := replace .URL "/" "" }}
                   <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
                     {{ if .HasChildren }}
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}
+<!--                          <span class="caret"></span>-->
+                      </a>
                     <ul class="dropdown-menu">
                         <div class="dropdown-arrow"></div>
                         {{ range .Children }}
@@ -41,12 +43,12 @@
                   {{ end }}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle data-toggle='dropdown' role='button' ">
-                        <img style="width: 18px;" src="" alt=""><span class="caret"></span>
+                        <img style="width: 18px;" src="/img/icons/GitHub-Mark.png" alt=""></span>
                     </a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle data-toggle='dropdown' role='button' ">
-                        <img style="width: 18px;" src="" alt=""><span class="caret"></span>
+                        <img style="width: 18px;" src="/img/icons/Gitee.png" alt=""></span>
                     </a>
                 </li>
                 </ul>

@@ -266,7 +266,6 @@ paginate = 10
     # For more informtion take a look at the README.
 [parmas.cards]
     enable = true
-    title = "news"
 
 [params.features]
     enable = true
@@ -316,3 +315,8 @@ paginate = 10
     avatar = 'mm'
     placeholder = 'Please leave a message...'
     visitor = true
+[params.blog]
+    enable = true
+
+[params.news]
+    enable = true

@@ -13,3 +13,11 @@ other = "Get Started"
 
 [home_getStartLink]
 other = "#"
+[main_blog_title]
+other = "Blog"
+
+[main_list_more]
+other = "View More"
+
+[main_news_title]
+other = "News"
