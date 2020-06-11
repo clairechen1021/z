@@ -4084,3 +4084,125 @@ p.start {
   background-color: green;
   margin: auto;
 }
+
+/* -----------------------------------blog_single模块---------------------------------- */
+#all .blog_single_title {
+  margin-top: 100px;
+  margin-bottom: 22px;
+  /* width:1106px; */
+  /* height:96px; */
+  font-size:34px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:48px;
+}
+
+#content #blog-post p.blog_12px {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+p.blog_12px .tag {
+  display: inline-block;
+  text-align: center;
+  width:55px;
+  height:20px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  opacity:0.39;
+  
+}
+
+p.blog_12px .tag a {
+  font-size: 12px;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:12px;
+}
+.tag02 {
+  width: 90px !important;
+}
+
+/* blog_single侧栏 */
+.side_authorBox {
+  width:244px;
+  height:523px;
+  background:rgba(255,255,255,1);
+  /* background-color: green; */
+  box-shadow:1px 2px 10px 0px rgba(0,0,0,0.15);
+  border-radius:8px;
+  text-align: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.side_authorBox .title {
+  margin: 0 auto;
+  width:72px;
+  height:16px;
+  font-size:12px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:16px;
+  /* margin-bottom: 15px; */
+}
+
+.side_authorBox .img {
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  margin: 15px auto;
+  border-radius: 50%;
+}
+
+.side_authorBox .author {
+  margin: 0 auto;
+  width:124px;
+  height:22px;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+}
+
+.side_authorBox .emailBox {
+  margin: 20px auto 40px;
+  width: 189px;
+  height: 22px;
+  /* background-color: yellowgreen; */
+}
+
+.side_authorBox .email_img {
+  display: inline-block;
+  /* float: left; */
+  width:20px;
+  height:16px;
+  background:yellow;
+  margin-right: 10px;
+}
+
+.side_authorBox .email {
+  /* float: right; */
+  display: inline;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(90,155,131,1);
+  line-height:22px;
+}
+.side_authorBox .other_post {
+  margin-bottom: 15px;
+}
+.side_authorBox .blog_series {
+  text-align: left;
+  margin-bottom: 20px;
+  width:204px;
+  height:44px;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(90,155,131,1);
+  line-height:22px;
+}

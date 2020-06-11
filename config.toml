@@ -302,3 +302,17 @@ paginate = 10
     enable = true
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+#blog_single评论模块新增
+# Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = true
+    appId = 'KcTcd38EvA1I33vSIV6qWNea-gzGzoHsz'
+    appKey = 'oJBVUOcItn0essSFvY6tS77O'
+    notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false # Verification code
+    avatar = 'mm'
+    placeholder = 'Please leave a message...'
+    visitor = true
