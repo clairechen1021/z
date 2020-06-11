@@ -1,6 +1,4 @@
 +++
-picturetype="vertical"
-name="Black"
 viewurl="/img/logo/vertical/view/Black.png"
 pngdownloadurl="/img/logo/vertical/download/Black.png"
 svgdownloadurl="/img/logo/vertical/download/Black.svg"
