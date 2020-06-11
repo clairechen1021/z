@@ -8,6 +8,38 @@ other = "The Simpler Big Data Engine You’re Looking For"
 [home_banner_p2]
 other = "Straightforward Experience, High Performance, Enterprise-level Reliability"
 
+[home_why_openLooKeng]
+other = "Why OpenLooKeng?"
+
+[home_why_OLK_title01]
+other = "SQL on anything"
+
+[home_why_OLK_title01_descr0]
+other = "Can access data from multiple storage systems across DC and cloud within a single query."
+
+[home_why_OLK_title01_descr02]
+other = "Seamlessly connected to BI tools and other applications."
+
+[home_why_OLK_title02]
+other = "Free and Easy Extension"
+
+[home_why_OLK_title02_descr01]
+other = "Can access data from multiple storage systems across DC and cloud within a single query."
+
+[home_why_OLK_title02_descr02]
+other = "Seamlessly connected to BI tools and other applications."
+
+[home_why_OLK_title03]
+other = "In-place Analysis"
+
+[home_why_OLK_title03_descr01]
+other = "Can access data from multiple storage systems across DC and cloud within a single query." 
+
+[home_why_OLK_title03_descr02]
+other = "Seamlessly connected to BI tools and other applications."
+
+
+
 [home_getStart]
 other = "Get Started"
 
