@@ -246,9 +246,9 @@ h1,h2,h3,h4,h5,h6,p{
 /* general styles */
 a,
 button {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  /*-webkit-transition: all 0.2s ease-out;*/
+  /*-moz-transition: all 0.2s ease-out;*/
+  /*transition: all 0.2s ease-out;*/
 }
 a i[class^="fa"],
 button i[class^="fa"] {
@@ -572,9 +572,9 @@ ul.list-style-none {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-/*.dropdown-menu {
-  position: absolute;
-}*/
+.navbar ul.dropdown-menu.hover {
+  display: block !important;
+}
 .dropdown-arrow {
   width: 20px;
   height: 20px;
@@ -3472,7 +3472,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #ffffff;
   border-color: #cccccc;
   border-bottom: none;
-  height: 70px;
+  /*height: 70px;*/
   box-shadow: 0px 1px 3px 0px rgba(178,178,178,0.5);
 }
 .navbar-default .navbar-brand {

@@ -232,7 +232,7 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright @openLooKeng 2020. All Rights Reserved."
+
     provide = "The openLooKeng project is provided under the "
     license = "license"
     # Format dates with Go's time formatting
@@ -320,3 +320,11 @@ paginate = 10
 
 [params.news]
     enable = true
+    
+[params.copyright]
+    enable = true
+    text = "<a href=\"/en/brand\">Trademark</a>&nbsp;&nbsp;<a href=\"/en/legal\">Legal</a>&nbsp;&nbsp;<a href=\"/en/privacy-policy\">Privacy</a><br>Copyright © openLooKeng 2020. All rights reserved."
+
+[languages.zh.params.copyright]
+    enable = true
+    text = "<a href=\"/zh/brand\">商标</a>&nbsp;&nbsp;<a href=\"/zh/legal\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacy-policy\">隐私政策</a><br>版权所有 © openEuler 2020 保留一切权利 "
