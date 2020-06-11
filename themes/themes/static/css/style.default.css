@@ -4229,13 +4229,17 @@ p.start {
 /* -----------------------------------blog_single模块---------------------------------- */
 #all .blog_single_title {
   margin-top: 100px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   /* width:1106px; */
   /* height:96px; */
   font-size:34px;
   font-family:Helvetica;
   color:rgba(0,0,0,1);
   line-height:48px;
+}
+
+#all .blog_single_title .col-md-12 h1 {
+  margin: 0;
 }
 
 #content #blog-post p.blog_12px {
