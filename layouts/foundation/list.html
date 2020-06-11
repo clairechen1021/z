@@ -29,12 +29,64 @@
                   {{ partial "sidebar.html" . }}
               </div>
               <div class="foundation-list">
-                   {{range  where $.Page.Site.Pages "Type" "committee"}} 
-                  
+                  <!-- {{print "aaaaaaaaaj"}} -->
+                  <p class='list-title'>Technical Steering Committee</p>
+                  <div class='list-content '>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+                  {{range where .Data.Pages "Type" "foundation" }}
                   <div class="committee-list">
-                      {{.Params.email}}
-                      rftgsr
+                      <div class="list-left">
+                        <div class="list-img">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="list-right">
+                          <p class="list-name">Steve Green</p>
+                          <p class="list-lead">CCO Community Lead</p>
+                          <div class="list-focus">
+                            <span>
+                              <img src="" alt="">
+                            </span>
+                            <span class="list-focus-text">
+                                Core Focus: xxx, xxxx
+                            </span>
+                          </div>
+                          <div class="list-company">
+                              <span>
+                                <img src="" alt="">
+                              </span>
+                              <span class="list-company-text">
+                                  Senior Software Engineer @ XXX Company
+                              </span>
+                          </div>
+                          <div class="list-email">
+                                <span>
+                                  <img src="" alt="">
+                                </span>
+                                <a class="list-email-text">
+                                    xxxxxxxxx@email.com
+                                </a>
+                          </div>
+                          <div class="list-home">
+                                  <span>
+                                    <img src="" alt="">
+                                  </span>
+                                  <a class="list-hone-text">
+                                      personal_homepage.com
+                                  </a>
+                          </div>
+
+                      </div>
                   </div>
+                     
+                  
                   {{end}}
               </div>
           </div>

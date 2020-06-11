@@ -174,21 +174,93 @@ h1,h2,h3,h4,h5,h6,p{
 
 #foundation-content{
   width: 100%;
+  padding-top:100px;
 }
 .foundation-con{
   width: 1410px;
-  background:pink;
-  margin:0 auto;
+  
+  margin:0 auto ;
 }
 .foundation-aside{
-  width: 25%;
+  width: 380px;
   background: skyblue;
   float: left;
 }
 .foundation-list{
-  width: 75%;
-  background:blue;
+  width: 1030px;
+  
   float: right;
+}
+.list-title{
+  
+height:48px;
+font-size:34px;
+font-family:Helvetica;
+color:rgba(0,0,0,1);
+line-height:48px;
+margin:0;
+}
+.foundation-list .list-content{
+  
+width: 1030px;
+font-size:16px;
+font-family:Helvetica-Light,Helvetica;
+font-weight:300;
+color:rgba(0,0,0,1);
+line-height:22px;
+margin: 40px 0 40px 0;
+
+}
+.committee-list{
+  width: 1030px;
+  height: 226px;
+  border-top: 1px solid rgba(0,0,0,0.25);
+}
+.list-left{
+  width: 180px;
+  height: 226px;
+  float: left;
+
+}
+.list-img{
+  width: 120px;
+  height: 120px;
+  background: pink;
+  margin: 21px 0 0 20px;
+}
+.list-right{
+  width: 850px;
+  height: 100%;
+  float: left;
+}
+.list-name{
+  height:26px;
+  font-size:18px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  margin: 20px 0 10px 0;
+}
+.list-lead{
+  height:22px;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+  margin-bottom: 10px;
+}
+.list-focus,.list-company,.list-email{
+  height:22px;
+  
+  margin-bottom: 10px;
+}
+.list-focus-text,.list-company-text,.list-email-text{
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
 }
 /* 以上为foundation页面样式 */
 .clearfix:before,
