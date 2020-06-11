@@ -3,12 +3,14 @@
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
     <div class="home_banner">
-        <p class="banner_p1 margin_auto">{{ i18n "home_banner_p1" }}</p>
+        <h1 class="banner_p1 margin_auto">{{ i18n "home_banner_p1" }}</h1>
         <p class="banner_p2 margin_auto">{{ i18n "home_banner_p2" }}</p>
         <div class="get_start">
             <a href={{ i18n "home_getStartLink" }}>{{ i18n "home_getStart" }}</a>
         </div>
-        <div class="home_img"></div>
+        <div class="home_img">
+            <img src="../img/banners/Banner.png" alt="">
+        </div>
     </div>
 </section>
 {{ end }}
