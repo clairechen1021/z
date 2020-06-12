@@ -4,6 +4,7 @@ tags = ["ipsum"]
 categories = ["lorem"]
 banner = "img/banners/banner-5.jpg"
 twitter_author = "jekyllrb"
+description = "It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website."
 +++
 
 ## Move static content to `static`

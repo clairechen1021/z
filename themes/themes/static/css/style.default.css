@@ -580,7 +580,7 @@ ul.list-style-none {
   height: 20px;
   background-color: white;
   position: relative;
-  left: 65px;
+  left: 48px;
   top: -10px;
   z-index: 1001;
   box-sizing: border-box;
@@ -2169,30 +2169,30 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
-.bar .container .col-md-5 > h2 {
+.bar .container .col-md-6 > h2 {
   font-size: 34px;
   line-height: 48px;
   width: 620px;
   font-weight: normal;
 }
-.bar .container .col-md-5 ul {
+.bar .container .col-md-6 ul {
   padding: 0;
 }
-.bar .container .col-md-5 ul li {
+.bar .container .col-md-6 ul li {
   list-style: none;
 }
-.bar .container .col-md-5 ul li a {
+.bar .container .col-md-6 ul li a {
   font-size: 24px;
   line-height: 34px;
   color: #000;
 }
-.bar .container .col-md-5 ul li a p {
+.bar .container .col-md-6 ul li a p {
   margin: 25px 0 10px 0;
 }
-.bar .container .col-md-5 ul li a:hover, :focus{
+.bar .container .col-md-6 ul li a:hover, :focus{
   text-decoration: none;
 }
-.bar .container .col-md-5 ul li > p {
+.bar .container .col-md-6 ul li > p {
   /*width: 620px;*/
   height: 44px;
   font-size: 16px;
@@ -2200,11 +2200,11 @@ fieldset[disabled] .btn-template-primary.active {
   line-height: 22px;
   overflow: hidden;
 }
-.bar .container .col-md-5 > a p {
+.bar .container .col-md-6 > a p {
   color: #5a9b83;
   font-size: 16px;
 }
-.bar .container .col-md-5 > a:hover, :focus {
+.bar .container .col-md-6 > a:hover, :focus {
   text-decoration: none;
 }
 .portfolio.no-space {
@@ -3971,6 +3971,7 @@ a.list-group-item.active > .badge,
   left: 50%;
   transform: translateX(-50%);
   top: 75px;
+  min-width: 115px;
 }
 .yamm .yamm-content {
   padding: 20px 30px;

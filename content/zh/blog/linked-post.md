@@ -5,6 +5,7 @@ tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming"]
 banner = "img/banners/banner-4.jpg"
 author = "John Doe"
+description = "It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website."
 +++
 
 I'm a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
