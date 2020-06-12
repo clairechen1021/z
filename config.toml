@@ -323,8 +323,8 @@ paginate = 10
     
 [params.copyright]
     enable = true
-    text = "<a href=\"/en/brand\">Trademark</a>&nbsp;&nbsp;<a href=\"/en/legal\">Legal</a>&nbsp;&nbsp;<a href=\"/en/privacy-policy\">Privacy</a><br>Copyright © openLooKeng 2020. All rights reserved."
+    text = "<a href=\"/en/trademark\">Trademark</a>&nbsp;&nbsp;<a href=\"/en/legal\">Legal</a>&nbsp;&nbsp;<a href=\"/en/privacy-policy\">Privacy</a><br>Copyright © openLooKeng 2020. All rights reserved."
 
 [languages.zh.params.copyright]
     enable = true
-    text = "<a href=\"/zh/brand\">商标</a>&nbsp;&nbsp;<a href=\"/zh/legal\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacy-policy\">隐私政策</a><br>版权所有 © openEuler 2020 保留一切权利 "
+    text = "<a href=\"/zh/trademark\">商标</a>&nbsp;&nbsp;<a href=\"/zh/legal\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacy-policy\">隐私政策</a><br>版权所有 © openEuler 2020 保留一切权利 "

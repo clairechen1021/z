@@ -4155,8 +4155,8 @@ p.start {
   background-color: #FAFAFB;
 }
 .home_whyOpenLK .item .video {
-  width:722px;
-  height:406px;
+  width: 37.6%;
+  height: 406px;
   background:rgba(234,234,234,1);
   position: absolute;
   top: 50px;
@@ -4168,6 +4168,10 @@ p.start {
   height:87px;
 }
 .home_whyOpenLK .item .title {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+  width: 19.2%;
   position: absolute;
   top: 164px;
   left: 60%;
@@ -4181,7 +4185,7 @@ p.start {
   position: absolute;
   top: 228px;
   left: 60%;
-  width:370px;
+  width: 19.2%;
   /* height:110px; */
   font-size:16px;
   font-family:Helvetica-Light,Helvetica;
@@ -4230,13 +4234,17 @@ p.start {
 /* -----------------------------------blog_single模块---------------------------------- */
 #all .blog_single_title {
   margin-top: 100px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   /* width:1106px; */
   /* height:96px; */
   font-size:34px;
   font-family:Helvetica;
   color:rgba(0,0,0,1);
   line-height:48px;
+}
+
+#all .blog_single_title .col-md-12 h1 {
+  margin: 0;
 }
 
 #content #blog-post p.blog_12px {
