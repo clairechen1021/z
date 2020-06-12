@@ -9,3 +9,6 @@ other = "博客"
 
 [main_news_title]
 other = "新闻"
+
+[main_related_links]
+other = "相关链接"
