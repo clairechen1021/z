@@ -4,9 +4,8 @@ date = "2015-09-17T13:47:08+02:00"
 tags = ["go"]
 categories = ["programming"]
 banner = "img/banners/banner-2.jpg"
-facebook_author = "GolangSociety"
 author = "GolangSociety"
-description = "This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content."
+description = "It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website."
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

@@ -1,2 +1,17 @@
 [main_email_subscribe_buttontext]
 other = "订阅"
+
+[main_list_more]
+other = "更多"
+
+[main_blog_title]
+other = "博客"
+
+[main_news_title]
+other = "新闻"
+
+[main_related_links]
+other = "相关链接"
+
+[main_postblog_source]
+other = "写博客"
