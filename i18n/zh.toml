@@ -12,3 +12,6 @@ other = "新闻"
 
 [main_related_links]
 other = "相关链接"
+
+[main_postblog_source]
+other = "写博客"
