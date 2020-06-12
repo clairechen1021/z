@@ -80,7 +80,7 @@ paginate = 10
 [[menu.main]]
     identifier = "events"
     name = "Events"
-    url  = "/events/"
+    url  = "/event/"
     weight = 1
     parent = 'recent'
 

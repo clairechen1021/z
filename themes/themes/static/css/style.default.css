@@ -4355,3 +4355,143 @@ p.blog_12px .tag a {
   color:rgba(90,155,131,1);
   line-height:22px;
 }
+
+/* -----------------------------------event活动页模块------------------------------ */
+#all .event_container {
+  width: 100%;
+  /* height: 1200px; */
+}
+
+#all .event_container .event_top {
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+#all .event_container .event_top_title {
+  font-size:44px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:44px;
+  margin: 109px auto 12px;
+}
+
+#all .event_container img {
+  width: 57.71%;
+  height: 385px;
+}
+
+#all .event_container .event_bottom {
+  width: 100%;
+  
+}
+
+.event_container .event_bottom .event_bottom_h2 {
+  font-size:34px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:48px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.event_bottom .event_bt_events {
+  position: relative;
+  height: 1492px;
+}
+
+.event_container .event_bt_events .line {
+  position: absolute;
+  left: 30.05%;
+  top: 0;
+  width:2px;
+  height:1392px;
+  background:rgba(0,0,0,1);
+  opacity:0.09;
+}
+
+.event_container .event_bt_events .circle {
+  /* width: 24px; */
+  width: 1.25%;
+  height: 0.98%;
+  /* height: 24px; */
+  background-color: yellow;
+  position: absolute;
+  left: 29.48%;
+}
+
+.event_container .event_bt_events .top01 {
+  top: 43px;
+}
+
+.event_container .top02 {
+  top: 244px;
+}
+
+.event_container .top03 {
+  top: 861px;
+}
+.event_container .top04 {
+  top: 1059px;
+}
+.event_container .top05 {
+  top: 1257px;
+}
+
+.event_container .event_bt_events .date {
+  width: 81px;
+  height: 48px;
+  position: absolute;
+  left: 23.18%;
+  text-align: center;
+}
+
+.event_container .event_bt_events p {
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+}
+
+.event_container .event_bt_events .time {
+  font-size:12px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:16px;
+}
+
+.event_container .event_bt_events .content {
+  position: absolute;
+  left: 32.81%;
+  height: 98px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+}
+
+.event_container .event_bt_events .content_title {
+  margin: 0;
+}
+
+.event_container .event_bt_events .content_detail {
+  font-size:16px;
+  line-height:22px;
+  margin: 10px 0;
+}
+
+.event_container .event_bt_events .location {
+  font-size:16px;
+  
+  line-height:22px;
+}
+
+.event_container .event_bt_events .content .envelope{
+  width: 845px;
+  height: 400px;
+  background-color: #ccc;
+  margin-top: 20px;
+}

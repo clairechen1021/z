@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        <div class="event_container">
+          <div class="event_top">
+            <h1 class="event_top_title">{{.Params.event_top_title}}</h1>
+            <img src="../img/banners/Banner.png" alt="">
+          </div>
+          <div class="event_bottom">
+            <h2 class="event_bottom_h2"></h2>
+            
+            <div class="event_bt_events">
+              <div class="date top01">
+                <p>{{.Params.date01}}</p>
+                <span class="time">{{.Params.time01}}</span>
+              </div>
+              <div class="date top02">
+                <p>{{.Params.date02}}</p>
+                <span class="time">{{.Params.time02}}</span>
+              </div>
+              <div class="date top03">
+                <p>{{.Params.date03}}</p>
+                <span class="time">{{.Params.time03}}</span>
+              </div>
+              <div class="date top04">
+                <p>{{.Params.date04}}</p>
+                <span class="time">{{.Params.time04}}</span>
+              </div>
+              <div class="date top05">
+                <p>{{.Params.date05}}</p>
+                <span class="time">{{.Params.time05}}</span>
+              </div>
+
+              <div class="line"></div>
+              
+              <div class="circle top01"></div>
+              <div class="circle top02"></div>
+              <div class="circle top03"></div>
+              <div class="circle top04"></div>
+              <div class="circle top05"></div>
+
+              <div class="content top01">
+                <h3 class="content_title">{{.Params.content_title01}}</h3>
+                <p class="content_detail">{{.Params.content_detail01}}</p>
+                <p class="location">{{.Params.location01}}</p>
+              </div>
+              <div class="content top02">
+                <h3 class="content_title">{{.Params.content_title02}}</h3>
+                <p class="content_detail">{{.Params.content_detail02}}</p>
+                <p class="location">{{.Params.location02}}</p>
+                <div class="envelope"></div>
+              </div>
+              <div class="content top03">
+                <h3 class="content_title">{{.Params.content_title03}}</h3>
+                <p class="content_detail">{{.Params.content_detail03}}</p>
+                <p class="location">{{.Params.location03}}</p>
+              </div>
+              <div class="content top04">
+                <h3 class="content_title">{{.Params.content_title04}}</h3>
+                <p class="content_detail">{{.Params.content_detail04}}</p>
+                <p class="location">{{.Params.location04}}</p>
+              </div>
+              <div class="content top05">
+                <h3 class="content_title">{{.Params.content_title05}}</h3>
+                <p class="content_detail">{{.Params.content_detail05}}</p>
+                <p class="location">{{.Params.location05}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        {{ partial "footer.html" . }}
+
+    </div>
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
