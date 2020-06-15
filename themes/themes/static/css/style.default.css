@@ -502,20 +502,21 @@ ul.list-style-none {
   border: none;
 }
 .navbar ul.nav > li > a {
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 0.08em;
-  /*border-top: solid 5px transparent;*/
+  border-top: solid 5px transparent;
   height: 55px;
 }
 .navbar ul.nav > li > a:hover {
-  border-bottom: solid 4px #5a9b83;
+  border-top: solid 4px #5a9b83;
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-bottom: solid 4px #5a9b83;
+  border-top: solid 4px #5a9b83;
+  background: #ccc;
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -1402,10 +1403,10 @@ fieldset[disabled] .btn-template-primary.active {
   padding-bottom: 20px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
-  background: #666;
+  background: #c1c7d0;
 }
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #fff;
+  background: #383b41;
 }
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
   background: #fff;
@@ -1494,7 +1495,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .cards-carousel {
   position: relative;
-  background: url('../img/photogrid.jpg') center center repeat;
+  /*background: url('../img/photogrid.jpg') center center repeat;*/
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1506,8 +1507,8 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #38a7bb;
-  opacity: 0.9;
+  /*background: #38a7bb;*/
+  /*opacity: 0.9;*/
   filter: alpha(opacity=90);
 }
 .cards-carousel .owl-carousel {
@@ -1515,22 +1516,23 @@ fieldset[disabled] .btn-template-primary.active {
   padding-bottom: 20px;
 }
 .cards-carousel .owl-theme .owl-controls .owl-page span {
-  background: #666;
+  background: #c1c7d0;
 }
 .cards-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #fff;
+  background: #383b41;
 }
 .cards-carousel .owl-theme .owl-controls .owl-page:hover span {
-  background: #fff;
+  background: #383b41;
 }
 .cards-carousel .cards-author {
   display: block;
   font-size: 16px;
-  /*font-family: Helvetica-Light, Helvetica;*/
+  font-family: Helvetica-Light, Helvetica;
   font-weight: 300;
   color: #5a9b83;
-  color: #000;
   ling-height: 22px;
+  opacity: 0.7;
+  margin: 20px 0;
 }
 .cards-carousel .cards-data {
   display: block;
@@ -1538,14 +1540,22 @@ fieldset[disabled] .btn-template-primary.active {
   font-weight: 300;
   ling-height: 16px;
   color: #000000;
+  opacity: 0.7;
 }
 .cards-carousel .cards-description {
   font-size: 16px;
   font-weight: 300;
   color: #000;
+  margin: 40px 0;
 }
 .cards-carousel .right a {
-  color: #000;
+  color: #5a9b83;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.cards-carousel .right a:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .cards-carousel {
@@ -1599,6 +1609,48 @@ fieldset[disabled] .btn-template-primary.active {
 }
 /*carousel style start*/
 
+/* -----------------------------------news-banner-container模块---------------------------------- */
+.news-card .container {
+  margin-bottom: 100px;
+}
+.news-card .container p {
+  font-size: 16px;
+  font-family: Helvetica-Light;
+}
+.news-card .container .recent-news{
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: normal;
+  margin: 0 -15px 50px -15px;
+}
+.news-card .container .post a:hover {
+  text-decoration: none;
+}
+.news-card .container .post h3 a {
+  color: #000;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+.news-card .container .post .author-category {
+  font-size: 16px;
+  color: #5a9b83;
+  font-weight: normal;
+  font-family: Helvetica-Light;
+  opacity: 0.7;
+}
+.news-card .container .post .date-comments a {
+  color: #000;
+  font-family: Helvetica-Light;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.news-card .container .post .view-more a {
+  color: #5a9b83;
+  font-size: 16px;
+  font-family: Helvetica-Light;
+  opacity: 0.7;
+}
 .customers {
   padding: 0;
   margin-bottom: 40px;

@@ -6,40 +6,42 @@
         {{ partial "nav.html" . }}
     </header>
 
-    <div class="news-banner">
-        {{ partial "cards.html" . }}
-    </div>
-    <div id="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    {{ $paginator := .Paginate (where .Data.Pages "Type" "news") }}
-                    {{ range $paginator.Pages }}
-                    <section class="post">
-                        <div class="row">
-                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                            <h5 class="author-category">
-                                {{ if isset .Params "author" }}
-                                {{ .Params.author }}
-                                {{ end }}
-                            </h5>
-                            <p class="date-comments">
-                                <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i>
-                                    {{ .Date.Format .Site.Params.date_format }}
-                                </a>
-                            </p>
-                            <br>
-                            <p>{{ .Params.Summary }}</p>
-                            <p class="date-comments"><a href="{{ .Permalink }}">View More</a></p>
-                        </div>
-                    </section>
-                    {{ end }}
+    <div class="news-card">
+        <div class="news-banner">
+            {{ partial "cards.html" . }}
+        </div>
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="recent-news">Recent News</h2>
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "news") }}
+                        {{ range $paginator.Pages }}
+                        <section class="post">
+                            <div class="row">
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                <h5 class="author-category">
+                                    {{ if isset .Params "author" }}
+                                    {{ .Params.author }},
+                                    {{ .Params.media}}
+                                    {{ end }}
+                                </h5>
+                                <p class="date-comments">
+                                    <a href="{{ .Permalink }}">
+                                        {{ .Date.Format .Site.Params.date_format }}
+                                    </a>
+                                </p>
+                                <p>{{ .Params.Summary }}</p>
+                                <p class="view-more"><a href="{{ .Permalink }}">View More</a></p>
+                            </div>
+                        </section>
+                        {{ end }}
+                    </div>
                 </div>
             </div>
+
         </div>
-
     </div>
-
     {{ partial "footer.html" . }}
 </div>
 {{ partial "scripts.html" . }}

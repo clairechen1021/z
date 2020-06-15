@@ -1,6 +1,7 @@
 +++
 title = "News2"
-author = "AUTHOR, MEDIA"
+author = "AUTHOR"
+media = "MEDIA"
 id = "news2"
 data = "2020-7-7"
 summary = "Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2."
