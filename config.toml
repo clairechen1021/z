@@ -51,16 +51,16 @@ paginate = 10
     parent = 'community'
 
 [[menu.main]]
-    identifier = "fundation"
-    name = "Fundation"
-    url  = "/fundation/"
+    identifier = "foundation"
+    name = "Foundation"
+    url  = "/foundation/"
     weight = 2
     parent = 'community'
 
 [[menu.main]]
     identifier = "mailinglists"
     name = "Mailing Lists"
-    url  = "/maillists/"
+    url  = "/maillist/"
     weight = 3
     parent = 'community'
 
