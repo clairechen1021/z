@@ -4304,7 +4304,8 @@ p.start {
 p.blog_12px .tag {
   display: inline-block;
   text-align: center;
-  width:55px;
+  /* width:55px; */
+  padding: 0 16px;
   height:20px;
   background:rgba(90,155,131,1);
   border-radius:4px;
@@ -4318,9 +4319,9 @@ p.blog_12px .tag a {
   color:rgba(255,255,255,1);
   line-height:12px;
 }
-.tag02 {
+/* .tag02 {
   width: 90px !important;
-}
+} */
 
 /* blog_single侧栏 */
 .side_authorBox {
