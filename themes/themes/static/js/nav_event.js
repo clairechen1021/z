@@ -10,18 +10,20 @@ const es = (selector) => {
 }
 
 const childHide = (element, target) => {
-    let e = element
+    let arrow = element.querySelector('.dropdown-arrow')
     let t = target
     element.addEventListener('mouseleave', function () {
         target.classList.remove('hover')
+        arrow.classList.remove('hover')
     })
 }
 
 const childShow = (element, target) => {
-    let e = element
+    let arrow = element.querySelector('.dropdown-arrow')
     let t = target
     element.addEventListener('mouseover', function (e) {
         target.classList.add('hover')
+        arrow.classList.add('hover')
     })
 }
 
@@ -36,5 +38,6 @@ const navEvent = () =>  {
 }
 const __main = () => {
     navEvent()
+    // debounce(navEvent, 1000)
 }
 __main()

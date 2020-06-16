@@ -36,8 +36,9 @@
                             {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>{{ end }}
                             {{ if and .Params.author .Params.date }} | {{ end }}
                             {{ if .Params.date }}{{ .Date.Format .Site.Params.date_format }} | {{ end }}
-                            <span class="tag"><a href="#">TAG</a></span>
-                            <span class="tag tag02"><a href="#">TAG</a></span>
+                            {{ range $index, $item := .Params.tags }}
+                              <span class="tag"><a href="#">{{ $item }}</a></span>
+                            {{ end }}
                           </p>
                         {{ end }}
 

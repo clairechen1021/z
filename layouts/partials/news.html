@@ -13,12 +13,13 @@
             <a href="{{ .URL }}">
                 <p>{{ .Title }}</p>
             </a>
+            <span>{{ .Params.author }}</span><span>{{ .Date.Format .Site.Params.date_format }}</span>
             <p>{{ .Params.summary }}</p>
         </li>
         {{ end }}
     </ul>
     <a href='{{"/news/" | relLangURL}}' target="_blank">
-        <p> {{ i18n "main_list_more" }}... </p>
+        <p> {{ i18n "main_list_more" }} </p>
     </a>
 </div>
 
