@@ -501,22 +501,24 @@ ul.list-style-none {
 .navbar {
   border: none;
 }
+.nav .open>a, .nav .open>a:focus {
+  border-color: #fff;
+}
 .navbar ul.nav > li > a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
-  height: 55px;
+  height: 62px;
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 4px #5a9b83;
+  /*border-bottom: solid 4px #5a9b83;*/
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 4px #5a9b83;
-  background: #ccc;
+  border-bottom: solid 4px #5a9b83;
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -577,12 +579,12 @@ ul.list-style-none {
   display: block !important;
 }
 .dropdown-arrow {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background-color: white;
-  position: relative;
+  position: absolute;
   left: 48px;
-  top: -10px;
+  top: -8px;
   z-index: 1001;
   box-sizing: border-box;
   transform: rotate(45deg);
@@ -2249,6 +2251,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar .container .col-md-6 ul li a {
   font-size: 24px;
+  font-width: 600;
   line-height: 34px;
   color: #000;
 }
@@ -2257,6 +2260,10 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar .container .col-md-6 ul li a:hover, :focus{
   text-decoration: none;
+}
+.bar .container .col-md-6 ul li > span {
+  margin-right: 10px;
+  color: #5a9b83;
 }
 .bar .container .col-md-6 ul li > p {
   /*width: 620px;*/
@@ -2269,6 +2276,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar .container .col-md-6 > a p {
   color: #5a9b83;
   font-size: 16px;
+  margin-top: 25px;
 }
 .bar .container .col-md-6 > a:hover, :focus {
   text-decoration: none;
@@ -2562,7 +2570,7 @@ fieldset[disabled] .btn-template-primary.active {
   display: inline;
 }
 #blog-listing-medium .post .date-comments a {
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 12px;
 }
 #blog-listing-medium .post .date-comments .character {
@@ -3169,6 +3177,9 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: none;
   letter-spacing: 0.08em;
 }
+/*-----------------------------------mobile-nav模块----------------------------------*/
+
+
 /* nav */
 .nav > li > a {
   padding: 10px 15px;
@@ -3188,7 +3199,7 @@ fieldset[disabled] .btn-template-primary.active {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #38a7bb;
+  /*border-color: #38a7bb;*/
 }
 .nav-tabs {
   border-bottom: 1px solid #38a7bb;
@@ -4071,7 +4082,7 @@ a.list-group-item.active > .badge,
   right: 0;*/
   left: 50%;
   transform: translateX(-50%);
-  top: 75px;
+  top: 55px;
   min-width: 115px;
 }
 .yamm .yamm-content {

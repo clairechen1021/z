@@ -13,6 +13,7 @@
             <a href="{{ .URL }}">
                 <p>{{ .Title }}</p>
             </a>
+            <span>{{ .Params.author }}</span><span>{{ .Date.Format .Site.Params.date_format }}</span>
             <p>{{ .Params.summary }}</p>
         </li>
         {{ end }}
