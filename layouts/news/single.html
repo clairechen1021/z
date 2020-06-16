@@ -1,4 +1,4 @@
-<!--
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 {{ partial "head.html" . }}
@@ -8,8 +8,54 @@
     </header>
     <div id="content">
         <div class="container">
-            <div class="news-banner"></div>
+            <h2 class="news_single_title">News Titile News Titile News Titile News Titile News Titile</h2>
+            <div class="relative_info">
+                <span class="author">{{ .Params.author }}</span>
+                <div class="line"></div>
+                <span class="date">{{ .Params.data }}</span>
+            </div>
+            <div class="news_sigle_item01">
+                <h4 class="item_title">Installing openLooKeng</h4>
+                <div class="item01_content">
+                    <p>Download the openLooKeng server tarball, openLooKeng-server-0.235.1.tar.gz, and unpack it. The tarball will contain a single top-level directory, openLooKeng-server-0.235.1, which we will call the installation directory.</p><br />
+                    <p>Presto needs a data directory for storing logs, etc. We recommend creating a data directory outside of the installation directory, which allows it to be easily preserved when upgrading Presto. We recommend creating a data directory outside of the installation directory, which allows it to be easily preserved when upgrading Presto.</p>
+                </div>
+            </div>
+            <div class="news_sigle_item02">
+                <h4 class="item_title">Configuring openLooKeng</h4>
+                <div class="item01_content">
+                    <p>Create an etc directory inside the installation directory. This will hold the following configuration:</p><br />
+                    <p>· Node Properties: environmental configuration specific to each node</p>
+                    <p>· JVM Config: command line options for the Java Virtual Machine</p>
+                    <p>· Config Properties: configuration for the Presto server</p>
+                    <p>· Catalog Properties: configuration for Connectors (data sources)</p>
+                </div>
+            </div>
+            <div class="news_sigle_item03">
+                <h4 class="item_title">Node properties</h4>
+                <div class="item03_content">
+                    <p class="p1">The node properties file, etc/node.properties, contains configuration specific to each node. A node is a single installed instance of Presto on a machine. This file is typically created by the deployment system when Presto is first installed. The following is a minimal etc/node.properties:</p>
+                    <img src="../../img/news_single/1.png" alt="">
+                    <p>The above properties are described below:</p><br />
+                    <p>· node.environment: The name of the environment. All Presto nodes in a cluster must have the same environment name.</p>
+                    <p>· node.id: The unique identifier for this installation of Presto. This must be unique for every node. This identifier should remain consistent across reboots or upgrades of Presto. If running multiple installations of Presto on a single machine (i.e. multiple nodes on the same machine), each installation must have a unique identifier.</p>
+                    <p>· node.data-dir: The location (filesystem path) of the data directory. Presto will store logs and other data here.</p>
+                    <p>· node.data-dir: The location (filesystem path) of the data directory. Presto will store logs and other data here.</p>
+                    <p>· node.data-dir: The location (filesystem path) of the data directory. Presto will store logs and other data here.</p>
+                    <p>· node.data-dir: The location (filesystem path) of the data directory. Presto will store logs and other data here.</p>
+                </div>
+            </div>
+            <div class="news_sigle_item04">
+                <h4 class="item_title">JVM Config</h4>
+                <div class="item01_content">
+                    <p>The JVM config file, etc/jvm.config, contains alist of command line options used for launching theJava Virtual Machine. The format of the file is alist of options, one per line. These options are notinterpreted by the shell, so options containingspaces or other special characters should not bequoted.</p><br />
+                    <p>The following provides a good starting point forcreating etc/jvm.config:</p>
+                    <img src="../../img/news_single/2.png" alt="">
+                    <p>Because an OutOfMemoryError will typically leave the JVM in an inconsistent state, we write a heap dump (for debugging) and forcibly terminate the process when this occurs.</p>
+                </div>
+            </div>
         </div>
     </div>
+    {{ partial "footer.html" . }}
 </div>
-</html>-->
+</html>
