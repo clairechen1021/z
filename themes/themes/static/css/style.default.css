@@ -4651,6 +4651,7 @@ p.blog_12px .tag a {
 }
 
 #all .foundation .bottom {
+  margin-top: 100px;
   width: 73.43%;
   height: 2003px;  
   margin: 0 auto;
@@ -4853,7 +4854,7 @@ p.blog_12px .tag a {
 
 .relative_info {
   width: 100%;
-  /* background-color: #ccc; */
+  margin-bottom: 40px;
 }
 
 .relative_info .author {

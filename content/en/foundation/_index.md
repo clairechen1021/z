@@ -1,5 +1,6 @@
 +++
 top_title = "Meet our Team"
+author_avatar = "../img/banners/Banner.png"
 
 btm_left_item01 = "Technical Steering Committee"
 btm_left_item02 = "SIGs (Special Interest Group)"
