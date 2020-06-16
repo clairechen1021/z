@@ -1,7 +1,4 @@
 <div class="flex flex-wrap justify-between">
-{{ if .Site.IsMultiLingual }}
-  {{ partial "docs/languages" . }}
-{{ end }}
 
 {{ if and .GitInfo .Site.Params.BookRepo }}
   <div>
@@ -21,4 +18,8 @@
     </a>
   </div>
 {{ end }}
+</div>
+<div class="docs-footer">
+  <a class="doc-back" id="docPreviousPage"></a>
+  <a class="doc-next" id="docNextPage"></a>
 </div>

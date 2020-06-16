@@ -53,6 +53,11 @@
     });
   }
 
+  function replacepos(text,start,stop,replacetext){
+    return text.substring(0,stop-1)+replacetext+text.substring(stop+1);;
+  }
+
+
   function search() {
     while (results.firstChild) {
       results.removeChild(results.firstChild);
@@ -65,10 +70,19 @@
     const searchHits = window.bookSearchIndex.search(input.value, 10);
     searchHits.forEach(function(page) {
       const li = document.createElement('li'),
-            a = li.appendChild(document.createElement('a'));
+      a = li.appendChild(document.createElement('a'));
 
       a.href = page.href;
       a.textContent = page.title;
+      //       a = li.appendChild(document.createElement('a')),
+      //       b = li.appendChild(document.createElement('a'));
+      // a.href = page.href;
+      // var index = page.title.toLowerCase().indexOf(input.value) == -1 ? 0 : page.title.toLowerCase().indexOf(input.value);
+      
+      // $(a).html(index ? replacepos(page.title, index, page.title.length, "<span>" + page.title + "</span>") : page.title);
+      // b.href = page.href;
+      // var index = page.content.toLowerCase().indexOf(input.value.toLowerCase());
+      // b.textContent = page.content.slice(index-10, index+10) ? page.content.slice(index-10, index+10) : page.content.slice(0, 20);
 
       results.appendChild(li);
     });

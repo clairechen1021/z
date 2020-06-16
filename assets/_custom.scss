@@ -1,3 +1,64 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+body{
+    overflow-x: unset;
+}
+.book-menu nav{
+    // margin-top: 80px;
+    position: static;
+}
+.book-toc nav{
+    position: static;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+.book-toc nav a{
+    color: rgba(90, 155, 131, 1);
+    font-size: 16px;
+    line-height: 16px;
+}
+.container-top h1{
+    font-weight: bold;
+}
+.docs-footer{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:30px;
+    position: relative;
+    height: 20px;
+}
+.docs-footer a{
+    cursor: pointer;
+    color: rgba(90, 155, 131, 1);
+    font-size: 18px;
+    font-weight: bold;
+}
+.docs-footer .doc-back{
+    position: absolute;
+    left: 0;
+}
+.docs-footer .doc-next{
+    position: absolute;
+    right: 0;
+}
+.book-menu a.active{
+    color: rgba(90, 155, 131, 1);
+}
+.book-section-flat>a{
+    font-weight: normal;
+}
+.book-menu a.collapsed::after{
+    margin-right: 30px;
+}
+#book-search-input{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1px;
+    border: 1px solid rgba(196, 205, 213, 1);
+    outline: none;
+}
+#book-search-results{
+    max-height: 300px;
+    overflow-y: scroll;
+}
