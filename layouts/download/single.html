@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<div class="all">
+    <div class="download-content">
+        <div class="download-container">
+            <div class="container-top">
+                <h1 class="download-title">{{ .Params.Title }}</h1>
+                {{ print .Params.image}}
+                <img src="{{ .Params.image }}" alt="" style="width: 1050px" height="365px">
+            </div>
+            <div class="download-descript">
+                <h3>Download OpenLooKeng XX.XX</h3>
+                <p>
+                    The current openLooKeng release version is XX.XX. See the Release Notes for more information.<br>
+                    Visit Deploying OpenLooKeng for deployment instructions.
+                </p>
+            </div>
+            <div class="download-button">
+                <div class="download-btn btn1">
+                    <h4>OpenLooKeng for XXX</h4>
+                    <button>openlookeng-cli-xx.xx.jar</button>
+                </div>
+                <div class="download-btn btn2">
+                    <h4>OpenLooKeng for XXX</h4>
+                    <button>openlookeng-server-xx.xx.tar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

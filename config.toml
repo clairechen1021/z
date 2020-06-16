@@ -10,6 +10,9 @@ disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
+uglyURLs = true
+buildFuture = true
+
 # Define the number of posts per page
 paginate = 10
 
@@ -28,7 +31,7 @@ paginate = 10
 [[menu.main]]
     identifier="download"
     name = "Download"
-    url  = "/download"
+    url  = "/download.html"
     weight = 1
 
 [[menu.main]]
@@ -102,13 +105,13 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier="download"
     name = "下载"
-    url  = "/download"
+    url  = "/zh/download"
     weight = 1
 
 [[languages.zh.menu.main]]
     identifier="documentation"
     name = "文档"
-    url  = "/documentation/"
+    url  = "/zh/documentation/"
     weight = 2
 
 [[languages.zh.menu.main]]
@@ -120,28 +123,28 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "contribution"
     name = "贡献指南"
-    url  = "/contribution/"
+    url  = "/zh/contribution/"
     weight = 1
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "fundation"
     name = "组织架构"
-    url  = "/fundation/"
+    url  = "/zh/fundation/"
     weight = 2
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "mailinglists"
     name = "邮件列表"
-    url  = "/maillists/"
+    url  = "/zh/maillists/"
     weight = 3
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "blog"
     name = "博客"
-    url  = "/blog/"
+    url  = "/zh/blog/"
     weight = 4
     parent = 'community'
 
@@ -154,14 +157,14 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "events"
     name = "活动"
-    url  = "/events/"
+    url  = "/zh/events/"
     weight = 1
     parent = 'recent'
 
 [[languages.zh.menu.main]]
     identifier = "news"
     name = "新闻"
-    url  = "/news/"
+    url  = "/zh/news/"
     weight = 2
     parent = 'recent'
 

@@ -519,6 +519,7 @@ ul.list-style-none {
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
   border-bottom: solid 4px #5a9b83;
+  color: #5a9b83;
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -3609,8 +3610,8 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #38a7bb;
+  /*color: #ffffff;*/
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
