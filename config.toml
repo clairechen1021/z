@@ -37,7 +37,7 @@ paginate = 10
 [[menu.main]]
     identifier="documentation"
     name = "Documentation"
-    url  = "/docs/"
+    url  = "/docs.html"
     weight = 2
 
 [[menu.main]]
@@ -49,28 +49,28 @@ paginate = 10
 [[menu.main]]
     identifier = "contribution"
     name = "Contribution"
-    url  = "/contribution/"
+    url  = "/contribution.html"
     weight = 1
     parent = 'community'
 
 [[menu.main]]
     identifier = "foundation"
     name = "Foundation"
-    url  = "/foundation/"
+    url  = "/foundation.html"
     weight = 2
     parent = 'community'
 
 [[menu.main]]
     identifier = "mailinglists"
     name = "Mailing Lists"
-    url  = "/maillist/"
+    url  = "/maillist.html"
     weight = 3
     parent = 'community'
 
 [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url  = "/blog/"
+    url  = "/blog.html"
     weight = 4
     parent = 'community'
 
@@ -83,14 +83,14 @@ paginate = 10
 [[menu.main]]
     identifier = "events"
     name = "Events"
-    url  = "/event/"
+    url  = "/event.html"
     weight = 1
     parent = 'recent'
 
 [[menu.main]]
     identifier = "news"
     name = "News"
-    url  = "/news/"
+    url  = "/news.html"
     weight = 2
     parent = 'recent'
 
@@ -105,13 +105,13 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier="download"
     name = "下载"
-    url  = "/zh/download"
+    url  = "/zh/download.html"
     weight = 1
 
 [[languages.zh.menu.main]]
     identifier="documentation"
     name = "文档"
-    url  = "/zh/documentation/"
+    url  = "/zh/docs.html"
     weight = 2
 
 [[languages.zh.menu.main]]
@@ -123,28 +123,28 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "contribution"
     name = "贡献指南"
-    url  = "/zh/contribution/"
+    url  = "/zh/contribution.html"
     weight = 1
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "fundation"
     name = "组织架构"
-    url  = "/zh/fundation/"
+    url  = "/zh/foundation.html"
     weight = 2
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "mailinglists"
     name = "邮件列表"
-    url  = "/zh/maillists/"
+    url  = "/zh/maillist.html"
     weight = 3
     parent = 'community'
 
 [[languages.zh.menu.main]]
     identifier = "blog"
     name = "博客"
-    url  = "/zh/blog/"
+    url  = "/zh/blog.html"
     weight = 4
     parent = 'community'
 
@@ -157,14 +157,14 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "events"
     name = "活动"
-    url  = "/zh/events/"
+    url  = "/zh/events.html"
     weight = 1
     parent = 'recent'
 
 [[languages.zh.menu.main]]
     identifier = "news"
     name = "新闻"
-    url  = "/zh/news/"
+    url  = "/zh/news.html"
     weight = 2
     parent = 'recent'
 
