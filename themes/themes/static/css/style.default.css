@@ -4304,7 +4304,6 @@ p.start {
 p.blog_12px .tag {
   display: inline-block;
   text-align: center;
-  /* width:55px; */
   padding: 0 16px;
   height:20px;
   background:rgba(90,155,131,1);
@@ -4319,9 +4318,6 @@ p.blog_12px .tag a {
   color:rgba(255,255,255,1);
   line-height:12px;
 }
-/* .tag02 {
-  width: 90px !important;
-} */
 
 /* blog_single侧栏 */
 .side_authorBox {
@@ -4567,4 +4563,228 @@ p.blog_12px .tag a {
 .home_links_imgs img{
   width: 180px;
   height: 60px;
+}
+
+/* --------------------------------foundation页面---------------------------------- */
+#all .foundation {
+  padding-top: 100px;
+  width: 100%;
+  /* background-color: yellowgreen; */
+}
+
+.foundation .top {
+  text-align: center;
+}
+
+.foundation .top .top_title {
+  margin-top: 0;
+  height:44px;
+  font-size:44px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:44px;
+  margin-bottom: 21px;
+}
+
+.foundation .top img {
+  width:57.71%;
+  height:385px;
+  margin: 0 auto;
+}
+
+#all .foundation .bottom {
+  width: 73.43%;
+  height: 2003px;  
+  margin: 0 auto;
+  position: relative;
+}
+
+.foundation .bottom .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:4px;
+  height:24px;
+  background:rgba(90,155,131,1);
+}
+
+.foundation .bottom .btm_left {
+    position: absolute;
+    height: 300px;
+    /* left: 36px; */
+    left: 2.55%;
+    top: 0;
+}
+
+.foundation .bottom .btm_left h4 {
+  height:26px;
+  font-size:18px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  margin-bottom: 20px;
+}
+
+.foundation .bottom .btm_right {
+  position: absolute;
+  right: 0;
+  /* left: 33%; */
+  width: 53.65%;
+  /* background-color: yellow; */
+}
+
+.foundation .bottom .btm_right .right_item {
+  display: none;
+}
+
+.foundation .bottom .btm_right .active {
+  display: block;
+}
+
+.foun__btm_rig_container {
+  width: 100%;
+}
+
+.foun__btm_rig_container .foun_btm_title {
+  margin: 0;
+  /* width: 100%; */
+  /* width:452px; */
+  height:48px;
+  font-size:34px;
+  font-family:Helvetica;
+  color:rgba(0,0,0,1);
+  line-height:48px;
+  margin-bottom: 40px;
+}
+
+.foun__btm_rig_container p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height:110px; */
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.foun__btm_rig_container .foun_detail {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.foun_detail .foun_det_item {
+  width: 100%;
+}
+
+.foun_detail .foun_det_item .foun_item_line {
+  width:100%;
+  height:1px;
+  background:rgba(0,0,0,1);
+  opacity:0.25;
+}
+
+.foun_detail .foun_det_item .foun_item_content {
+  width: 100%;
+  height: 227px;
+  /* background-color: #ccc; */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.foun_item_content .foun_avatar {
+  width: 120px;
+  height: 120px;
+  margin-right: 40px;
+}
+
+.foun_item_content .information {
+  /* display: flex;
+  align-items: space-between; */
+  width: 400px;
+}
+
+.foun_item_content .information .item_author {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.foun_item_content .information > p {
+  margin: 10px 0;
+  padding: 0;
+  width:271px;
+  height:22px;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+}
+
+.foun_item_content .information .item_focus {
+  height: 22px;
+  width: 100%;
+}
+
+.foun_item_content .information .item_focus p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+}
+
+.foun_item_content .information .senior {
+  margin: 10px 0;
+}
+
+.foun_item_content .information .senior p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:22px;
+}
+
+.foun_item_content .information .email p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(90,155,131,1);
+  line-height:22px;
+}
+
+.foun_item_content .information .personal {
+  margin-top: 10px;
+}
+
+.foun_item_content .information .personal p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size:16px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(90,155,131,1);
+  line-height:22px;
+}
+
+.foun_item_content .information img {
+  margin-right: 10px;
+  width: 22px;
+  height: 18px;
 }

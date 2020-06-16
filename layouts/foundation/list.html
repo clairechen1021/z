@@ -12,12 +12,30 @@
           {{ partial "nav.html" . }}
 
         </header>
-
-
         
-        <div>
-
-            {{ .Content}}
+        <div class="foundation">
+          <div class="top">
+            <h2 class="top_title">{{ .Params.top_title }}</h2>
+            <img src="../img/banners/Banner.png" alt="">
+          </div>
+          <div class="bottom">
+            <div class="line"></div>
+            <div class="btm_left">
+              <h4>{{ .Params.btm_left_item01 }}</h4>
+              <h4>{{ .Params.btm_left_item02 }}</h4>
+              <h4>{{ .Params.btm_left_item03 }}</h4>
+              <h4>{{ .Params.btm_left_item04 }}</h4>
+            </div>
+            <div class="btm_right">
+              <div class="right_item active">
+                {{ partial "technical.html" . }}
+              </div>
+              <div class="right_item">02</div>
+              <div class="right_item">03</div>
+              <div class="right_item">04</div>
+            </div>
+          </div>
+          
         </div>
         {{ partial "footer.html" . }}
 
