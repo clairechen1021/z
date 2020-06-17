@@ -1613,9 +1613,9 @@ fieldset[disabled] .btn-template-primary.active {
 /*carousel style start*/
 
 /* -----------------------------------news-banner-container模块---------------------------------- */
-.news-card .container {
+/* .news-card .container {
   margin-bottom: 100px;
-}
+} */
 .news-card .container p {
   font-size: 16px;
   font-family: Helvetica-Light;
@@ -1624,10 +1624,18 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 34px;
   line-height: 48px;
   font-weight: normal;
-  margin: 0 -15px 50px -15px;
+  margin: 100px -15px 50px -15px;
+}
+
+.news-card .container .post {
+  margin-bottom: 60px;
 }
 .news-card .container .post a:hover {
   text-decoration: none;
+}
+
+.news-card .container .post h3 {
+  margin: 0;
 }
 .news-card .container .post h3 a {
   color: #000;
@@ -1636,11 +1644,22 @@ fieldset[disabled] .btn-template-primary.active {
   font-weight: normal;
 }
 .news-card .container .post .author-category {
-  font-size: 16px;
-  color: #5a9b83;
-  font-weight: normal;
-  font-family: Helvetica-Light;
-  opacity: 0.7;
+  height:16px;
+  font-size:12px;
+  font-family:Helvetica-Light,Helvetica;
+  font-weight:300;
+  color:rgba(0,0,0,1);
+  line-height:16px;
+  margin: 20px 0;
+}
+.news-card .container .post .author-category .line {
+  width:1px;
+  height:16px;
+  background:rgba(0,0,0,1);
+  opacity:0.25;
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .news-card .container .post .date-comments a {
   color: #000;
@@ -4276,7 +4295,6 @@ p.start {
 }
 .home_whyOpenLK .item .video {
   width: 37.6%;
-  height: 406px;
   position: absolute;
   top: 50px;
   left: 16.4%;
@@ -4386,6 +4404,12 @@ p.blog_12px .tag a {
 }
 
 /* blog_single侧栏 */
+.side_fixed {
+  position:fixed;
+  top: 145px;
+  right: 0;
+  
+}
 .side_authorBox {
   width:244px;
   height:523px;
@@ -4857,6 +4881,7 @@ p.blog_12px .tag a {
   color:rgba(0,0,0,1);
   line-height:48px;
   margin-top: 100px;
+  font-weight: normal;
 }
 
 .relative_info {
@@ -4869,15 +4894,16 @@ p.blog_12px .tag a {
   font-size:12px;
   font-family:Helvetica-Light,Helvetica;
   font-weight:300;
-  color:rgba(0,0,0,1);
+  color:rgba(0,0,0,.7);
   line-height:16px;
 }
 
 .relative_info .line {
+  vertical-align: middle;
   display: inline-block;
   width:1px;
   height:16px;
-  background:rgba(0,0,0,1);
+  background:rgba(0,0,0,.7);
   opacity:0.25;
   margin: 0 15px;
 }
@@ -4887,7 +4913,7 @@ p.blog_12px .tag a {
   font-size:12px;
   font-family:Helvetica-Light,Helvetica;
   font-weight:300;
-  color:rgba(0,0,0,1);
+  color:rgba(0,0,0,.7);
   line-height:16px;
 }
 
@@ -4969,4 +4995,58 @@ p.blog_12px .tag a {
   height: 170px;
   margin-top: 32px;
   margin-bottom: 10px;
+}
+
+/* ---------------------------首页/Landing Page，blog和news添加作者、日期和tag------------------------- */
+/* home_blog */
+.home_blog {
+  font-size: 12px !important;
+  margin-bottom: 0px;
+}
+.home_blog a{
+  font-size: 12px !important;
+}
+
+p.home_blog .tag {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+  height:20px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  opacity:0.39;
+  line-height: 20px;
+}
+
+p.home_blog .tag a {
+  font-size: 12px !important;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:12px !important;
+}
+/* home_news */
+.home_news {
+  font-size: 12px !important;
+  margin-bottom: 0px;
+}
+.home_news a{
+  font-size: 12px !important;
+}
+
+p.home_news .tag {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+  height:20px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  opacity:0.39;
+  line-height: 20px;
+}
+
+p.home_news .tag a {
+  font-size: 12px !important;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:12px !important;
 }
