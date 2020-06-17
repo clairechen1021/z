@@ -4957,3 +4957,57 @@ p.blog_12px .tag a {
   margin-top: 32px;
   margin-bottom: 10px;
 }
+
+/* ---------------------------首页/Landing Page，blog和news添加作者、日期和tag------------------------- */
+/* home_blog */
+.home_blog {
+  font-size: 12px !important;
+  margin-bottom: 0px;
+}
+.home_blog a{
+  font-size: 12px !important;
+}
+
+p.home_blog .tag {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+  height:20px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  opacity:0.39;
+  line-height: 20px;
+}
+
+p.home_blog .tag a {
+  font-size: 12px !important;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:12px !important;
+}
+/* home_news */
+.home_news {
+  font-size: 12px !important;
+  margin-bottom: 0px;
+}
+.home_news a{
+  font-size: 12px !important;
+}
+
+p.home_news .tag {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+  height:20px;
+  background:rgba(90,155,131,1);
+  border-radius:4px;
+  opacity:0.39;
+  line-height: 20px;
+}
+
+p.home_news .tag a {
+  font-size: 12px !important;
+  font-family:Helvetica;
+  color:rgba(255,255,255,1);
+  line-height:12px !important;
+}
