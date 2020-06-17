@@ -1,6 +1,7 @@
 +++
 title = "法律声明"
 +++
+<h2 class="blog_post">法律声明</h2>
 本法律声明包含openEuler社区的若干法律政策。这些政策适用于本网站以及openEuler社区项目发布。
 ### 规则及openEuler网站访问条件
 
