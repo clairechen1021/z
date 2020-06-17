@@ -7,9 +7,9 @@
     </header>
 
     <div class="news-card">
-        <div class="news-banner">
+        <!-- <div class="news-banner">
             {{ partial "cards.html" . }}
-        </div>
+        </div> -->
         <div id="content">
             <div class="container">
                 <div class="row">
@@ -22,15 +22,16 @@
                                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                                 <h5 class="author-category">
                                     {{ if isset .Params "author" }}
-                                    {{ .Params.author }},
-                                    {{ .Params.media}}
+                                        {{ .Params.author }}
+                                        <span class="line"></span>
+                                        {{ .Date.Format .Site.Params.date_format }}
                                     {{ end }}
                                 </h5>
-                                <p class="date-comments">
+                                <!-- <p class="date-comments">
                                     <a href="{{ .Permalink }}">
                                         {{ .Date.Format .Site.Params.date_format }}
                                     </a>
-                                </p>
+                                </p> -->
                                 <p>{{ .Params.Summary }}</p>
                                 <p class="view-more"><a href="{{ .Permalink }}">View More</a></p>
                             </div>
