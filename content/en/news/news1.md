@@ -7,8 +7,8 @@ data = "JUL 7, 2020"
 summary = "Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2."
 +++
 
-## Installing openLooKeng
-
+#### Installing openLooKeng
+<br />
 Download the openLooKeng server tarball, openLooKeng-server-0.235.1.tar.gz, and unpack it. The tarball will contain a single top-level directory, openLooKeng-server-0.235.1, which we will call the installation directory.
 
 Presto needs a data directory for storing logs, etc. We recommend creating a data directory outside of the installation directory, which allows it to be easily preserved when upgrading Presto. We recommend creating a data directory outside of the installation directory, which allows it to be easily preserved when upgrading Presto.
@@ -29,7 +29,7 @@ Create an etc directory inside the installation directory. This will hold the fo
 The node properties file, etc/node.properties, contains configuration specific to each node. A node is a single installed instance of Presto on a machine. This file is typically created by the deployment system when Presto is first installed. The following is a minimal etc/node.properties:
 <br />
 <br />
-<img src='../../../img/news_single/1.png'>
+<img src='../../../img/news_single/1.png' style="height:76px; width:100%">
 <br />
 <br />
 
@@ -51,7 +51,7 @@ The JVM config file, etc/jvm.config, contains a list of command line options use
 The following provides a good starting point for creating etc/jvm.config:
 <br />
 <br />
-<img src='../../../img/news_single/2.png'>
+<img src='../../../img/news_single/2.png' style="height:170px; width:100%">
 
 Because an OutOfMemoryError will typically leave the JVM in an inconsistent state, we write a heap dump (for debugging) and forcibly terminate the process when this occurs.
 <br />

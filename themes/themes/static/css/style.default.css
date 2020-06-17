@@ -4869,6 +4869,7 @@ p.blog_12px .tag a {
   color:rgba(0,0,0,1);
   line-height:48px;
   margin-top: 100px;
+  font-weight: normal;
 }
 
 .relative_info {
@@ -4881,15 +4882,16 @@ p.blog_12px .tag a {
   font-size:12px;
   font-family:Helvetica-Light,Helvetica;
   font-weight:300;
-  color:rgba(0,0,0,1);
+  color:rgba(0,0,0,.7);
   line-height:16px;
 }
 
 .relative_info .line {
+  vertical-align: middle;
   display: inline-block;
   width:1px;
   height:16px;
-  background:rgba(0,0,0,1);
+  background:rgba(0,0,0,.7);
   opacity:0.25;
   margin: 0 15px;
 }
@@ -4899,7 +4901,7 @@ p.blog_12px .tag a {
   font-size:12px;
   font-family:Helvetica-Light,Helvetica;
   font-weight:300;
-  color:rgba(0,0,0,1);
+  color:rgba(0,0,0,.7);
   line-height:16px;
 }
 
