@@ -5050,3 +5050,7 @@ p.home_news .tag a {
   color:rgba(255,255,255,1);
   line-height:12px !important;
 }
+
+.blog_footer {
+  height: 680px;
+}
