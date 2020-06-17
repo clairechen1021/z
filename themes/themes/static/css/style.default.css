@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 100%;
     padding-top: 100px;
   }
-  #mail-lists h2{
+  .mail-title{
     /* font-family: Helvetica; */
     /* color:#000; */
     line-height: 48px;
@@ -2565,6 +2565,10 @@ fieldset[disabled] .btn-template-primary.active {
   color: #000;
   font-weight: 300;
   font-size: 12px;
+}
+#blog-listing-medium .post .clearfix{
+  margin-top: 22px;
+  margin-bottom: 20px;
 }
 #blog-listing-medium .post .author a {
   font-weight: 500;
