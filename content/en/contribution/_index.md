@@ -1,7 +1,6 @@
 +++
 title = "contribution"
-top_title01 = "Welcome to the openLooKeng Contributor Community"
-top_title02 = "Start your open source journey with the trending developers here!"
+top_title = "Welcome to the openLooKeng Contributor Community"
 
 step01_title = "Agreement and Conduct Before You Start"
 step01_introduction = "Before participating in the community contribution, please sign the Contributor License Agreement (CLA) and read the Code of Conduct."
