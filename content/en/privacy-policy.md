@@ -1,7 +1,7 @@
 +++
 title = "Privacy Policy"
 +++
-
+<h2 class="blog_post">Privacy Policy</h2>
 openEuler community understands the importance of your privacy to you and fully respects your privacy. If you have any questions about how we process your personal data, please feel free to contact us.
 
 **1. We will collect the following personal data from you**

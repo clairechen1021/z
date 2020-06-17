@@ -9,7 +9,7 @@
             <div id="content">
                 <div class="container">
                     <div class="row" style="margin-bottom:20px">
-                        
+                        <h2 class="blog_post">{{ .Params.title }}</h2>
                         <!-- <div class="col-lg-12"style="font-size:24px;color:#333333;">Vertical</div> -->
                         {{ range where $.Page.Site.Pages "Type" "trademark" }}
                         {{ if .Params }}

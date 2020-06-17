@@ -14,18 +14,17 @@
           {{ partial "nav.html" . }}
 
         </header>
-        
-        <div id="email-banner">
-          <h4>Keep in Touch</h4>
-          <div class="email-b-con">
-            <a href="">
-              img-banner
-            </a>
+        <div class="download-content">
+          <div class="download-container">
+            <div class="container-top">
+              <h1 class="download-title">Keep in Touch</h1>
+              <img src="/img/banners/Banner.png" alt="" style="width: 1050px" height="365px">
+            </div>
           </div>
         </div>
-        <div id="mail-lists">
+        <div id="mail-lists" style="margin-bottom: 100px;">
           
-              <h5 class="mail-title">Mailing Lists</h5>
+              <h2 class="mail-title">Mailing Lists</h2>
               <p class='mail-descript'>
                 Mailing list is one of the most common communication ways in the world of open 
                 source. Welcome to join the openLooKeng mailing lists and then you can 
@@ -58,8 +57,14 @@
                   
               </table>
               <p class='mail-tips'>If you’re the first time subscribing to the mailing lists, please follow the guidance below:</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step1}}</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step2}}</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step3}}</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step4}}</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step5}}</p>
+              <p class='mail-tips' style="margin: 10px auto 20px;">{{.Params.step6}}</p>
         </div>
-       <div id="mail-step">
+       <!-- <div id="mail-step">
          <div class="mail-step-img">
            <p class="mail-step1">{{.Params.step1}}</p>
            <p class="mail-step2">{{.Params.step2}}</p>
@@ -68,7 +73,7 @@
            <p class="mail-step5">{{.Params.step5}}</p>
            <p class="mail-step6">{{.Params.step6}}</p>
          </div>
-       </div>
+       </div> -->
         
         {{ partial "footer.html" . }}
 

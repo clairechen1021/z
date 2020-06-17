@@ -62,3 +62,15 @@ body{
     max-height: 300px;
     overflow-y: scroll;
 }
+.book-menu a.collapsed::before {
+    content: "＞";
+}
+.book-menu a.collapsed::after {
+    content: none;
+}
+.book-menu a.collapsed{
+    justify-content: unset;
+}
+.arrow-down::before{
+    content: "∨" !important;
+}

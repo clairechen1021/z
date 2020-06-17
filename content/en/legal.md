@@ -1,7 +1,9 @@
 +++
-title = "LEGAL NOTICE"
+title = "Legal Notice"
 +++
-This legal notice contains legal policies for the openEuler community. These policies govern this site and Project releases hosted by openEuler community.
+<h2 class="blog_post">Legal Notice</h2>
+This legal notice contains legal policies for the openEuler community. These policies govern this site and Project releases hosted by openEuler community.  
+
 ### Terms and Conditions for Accessing the openEuler community Website 
 
 (https://openeuler.org) is operated by openEuler community. The following rules apply to all visitors to this website. openEuler community may, without notice to you and at any time, revise these terms according to laws, regulations, and market changes. The right to access this website is granted by openEuler community according to the terms specified in this Notice. If you do not agree to these terms, please do not use this website. By accessing, browsing, or using this website and the services provided herein, you acknowledge that you agree with all contents of this Notice. In the event of any violation of these terms and conditions, openEuler community reserves the right to seek all remedies available by law and in equity against such violations.

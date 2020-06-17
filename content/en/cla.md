@@ -1,7 +1,7 @@
 +++
 title = "Signing CLA"
 +++
-
+<h2 class="blog_post">Signing CLA</h2>
 <div class="clanote">
 <p style="text-indent:2em;">
 By signing this Agreement For Contribution (this Agreement), the undersigned Contributor agrees to accept and be legally bound by this Agreement. This Agreement applies to the Contribution submitted by Contributor to all the projects of openEuler Community (“Project”), whether provided before, on or after the signing date.

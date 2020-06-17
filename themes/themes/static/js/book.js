@@ -1,20 +1,60 @@
-$($(window).scroll(function (){
 
-    if($(".book-toc").offset().top - $(window).scrollTop() < 120){
-        $(".book-toc nav").css({
-            "position": "fixed",
-            "top": "120px",
-            "right": "200px",
-            "bottom": "unset"
-        })
-    }else{
-        $(".book-toc nav").css({
-            "position": "static"
-        })
+$(".book-icon").on("click", function (){
+    $("#TableOfContents").closest("aside").toggleClass("hidden");
+})
+
+$($(window).scroll(function (){
+    if($(".container").innerWidth() == 1170 || $(".container").innerWidth() == 970){
+        try {
+            if($(".book-toc").offset().top - $(window).scrollTop() < 120){
+                $(".book-toc nav").css({
+                    "position": "fixed",
+                    "top": "120px",
+                    "right": $(".markdown").offset().right - $("#TableOfContents").innerWidth(),
+                    "bottom": "unset"
+                })
+            }else{
+                $(".book-toc nav").css({
+                    "position": "static"
+                })
+            }
+        } catch (error) {
+            
+        }
+          
     }
+
+    if($(window).innerWidth() > 992){
+        try {
+            
+            $(".sidebar-menu").css({
+                "position": "fixed",
+                "top": $("#blog-listing-medium").offset().top,
+                "right": $("#blog-listing-medium").offset().right - $(".sidebar-menu").innerWidth(),
+            }) 
+        } catch (error) {
+            
+        }
+          
+    }
+    
 }));
+$(".book-menu>nav>ul>li>a").remove();
+var $activeMenuParents = $(".book-menu").find(".active").parents("li");
+console.log($activeMenuParents);
+$activeMenuParents.each(function(){
+    if($(this).find(".active")){
+        $(this).find(".active").addClass("arrow-down");
+        $(this).children("a").addClass("arrow-down");
+    }
+});
+var $delArrowDown = $(".book-menu").find(".active");
+if(!$delArrowDown.hasClass("collapsed")){
+    $delArrowDown.removeClass("arrow-down");
+}
+
 (function (){
-    var input =  document.createElement("input");
+
     var div = document.createElement("div");
     var spanBack = document.createElement("a");
     var spanNext = document.createElement("a");
@@ -36,23 +76,11 @@ $($(window).scroll(function (){
     });
     $(".book-toc nav").append(div);
 
-    // $(input).attr("placeholder", "Search").attr("id", "book-search-input")
-    // .css({
-    //     width: "204px",
-    //     height: "36px",
-    //     background: "rgba(255, 255, 255, 1)",
-    //     "border-radius": "1px",
-    //     border: "1px solid rgba(196, 205, 213, 1)",
-    //     outline: "none",
-    //     "padding-left": "10px",
-    //     "margin-bottom": "10px"
-    // });
-    // $(".book-toc nav").prepend(input);
     $("#book-search-input").attr("placeholder", "Search");
     $(".book-toc nav").prepend($(".book-search"));
 
     var $menuList = $(".book-menu nav>ul li a");
-    $menuList.each(function (index, item){
+    $menuList.each(function (index){
         if($(this).hasClass("active")){
             if(index == 0){
                 $(".doc-back").remove();

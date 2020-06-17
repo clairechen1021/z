@@ -1,5 +1,6 @@
 ---
 bookFlatSection: true
+bookHidden: true
 ---
 # Introduction
 

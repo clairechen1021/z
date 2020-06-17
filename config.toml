@@ -37,7 +37,7 @@ paginate = 10
 [[menu.main]]
     identifier="documentation"
     name = "Documentation"
-    url  = "/docs.html"
+    url  = "/docs/example/collapsed.html"
     weight = 2
 
 [[menu.main]]
@@ -111,7 +111,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier="documentation"
     name = "文档"
-    url  = "/zh/docs.html"
+    url  = "/zh/docs/example/collapsed.html"
     weight = 2
 
 [[languages.zh.menu.main]]
@@ -326,11 +326,11 @@ paginate = 10
     
 [params.copyright]
     enable = true
-    text = "<a href=\"/en/trademark\">Trademark</a>&nbsp;&nbsp;<a href=\"/en/legal\">Legal</a>&nbsp;&nbsp;<a href=\"/en/privacy-policy\">Privacy</a><br>Copyright © openLooKeng 2020. All rights reserved."
+    text = "<a href=\"/en/trademark.html\">Trademark</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal</a>&nbsp;&nbsp;<a href=\"/en/privacy-policy.html\">Privacy</a><br>Copyright © openLooKeng 2020. All rights reserved."
 
 [languages.zh.params.copyright]
     enable = true
-    text = "<a href=\"/zh/trademark\">商标</a>&nbsp;&nbsp;<a href=\"/zh/legal\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacy-policy\">隐私政策</a><br>版权所有 © openEuler 2020 保留一切权利 "
+    text = "<a href=\"/zh/trademark.html\">商标</a>&nbsp;&nbsp;<a href=\"/zh/legal.html\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacy-policy.html\">隐私政策</a><br>版权所有 © openEuler 2020 保留一切权利 "
 
 [markup.goldmark.renderer]
 unsafe= true
