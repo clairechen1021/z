@@ -4373,6 +4373,12 @@ p.blog_12px .tag a {
 }
 
 /* blog_single侧栏 */
+.side_fixed {
+  position:fixed;
+  top: 145px;
+  right: 0;
+  
+}
 .side_authorBox {
   width:244px;
   height:523px;
