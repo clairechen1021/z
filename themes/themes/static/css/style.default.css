@@ -1610,9 +1610,9 @@ fieldset[disabled] .btn-template-primary.active {
 /*carousel style start*/
 
 /* -----------------------------------news-banner-container模块---------------------------------- */
-.news-card .container {
+/* .news-card .container {
   margin-bottom: 100px;
-}
+} */
 .news-card .container p {
   font-size: 16px;
   font-family: Helvetica-Light;
