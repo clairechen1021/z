@@ -4294,7 +4294,9 @@ p.start {
   background-color: #FAFAFB;
 }
 .home_whyOpenLK .item .video {
-  width: 37.6%;
+  /* width: 37.6%; */
+  /* width: 722px; */
+  width: 513px;
   position: absolute;
   top: 50px;
   left: 16.4%;
@@ -4663,6 +4665,7 @@ p.blog_12px .tag a {
 
 .foundation .top {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .foundation .top .top_title {
@@ -4682,11 +4685,18 @@ p.blog_12px .tag a {
 }
 
 #all .foundation .bottom {
-  margin-top: 100px;
-  width: 73.43%;
+  /* margin-top: 100px; */
+  /* width: 73.43%; */
+  width: 1140px;
   height: 2003px;  
   margin: 0 auto;
   position: relative;
+  /* background-color: #ccc; */
+}
+
+#all .foundation .bottom h4,
+#all .foundation .bottom h2 {
+  font-weight: normal;
 }
 
 .foundation .bottom .line {
@@ -4717,9 +4727,9 @@ p.blog_12px .tag a {
 
 .foundation .bottom .btm_right {
   position: absolute;
-  right: 0;
-  /* left: 33%; */
-  width: 53.65%;
+  /* right: 0; */
+  left: 30%;
+  width: 68.8%;
 }
 
 .foundation .bottom .btm_right .right_item {
@@ -5000,6 +5010,7 @@ p.blog_12px .tag a {
 /* ---------------------------首页/Landing Page，blog和news添加作者、日期和tag------------------------- */
 /* home_blog */
 .home_blog {
+  color: #000;
   font-size: 12px !important;
   margin-bottom: 0px;
 }
@@ -5026,6 +5037,7 @@ p.home_blog .tag a {
 }
 /* home_news */
 .home_news {
+  color: #000;
   font-size: 12px !important;
   margin-bottom: 0px;
 }
@@ -5049,4 +5061,8 @@ p.home_news .tag a {
   font-family:Helvetica;
   color:rgba(255,255,255,1);
   line-height:12px !important;
+}
+
+.blog_footer {
+  height: 680px;
 }
