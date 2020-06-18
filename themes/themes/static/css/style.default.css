@@ -5099,3 +5099,7 @@ p.home_news .tag a {
   position: relative;
   left: 60px;
 }
+/*防止页面抖动*/
+header{
+  height: 62px;
+}
