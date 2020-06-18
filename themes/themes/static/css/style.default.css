@@ -5074,3 +5074,8 @@ p.home_news .tag a {
 .blog_footer {
   height: 680px;
 }
+/* docs */
+.book-toc{
+  position: relative;
+  left: 60px;
+}
