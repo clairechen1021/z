@@ -244,12 +244,12 @@ h1,h2,h3,h4,h5,h6,p{
   transform: translate3d(0, 0, 0);
 }
 /* general styles */
-a,
-button {
+/* a,
+button { */
   /*-webkit-transition: all 0.2s ease-out;*/
   /*-moz-transition: all 0.2s ease-out;*/
   /*transition: all 0.2s ease-out;*/
-}
+/* } */
 a i[class^="fa"],
 button i[class^="fa"] {
   margin: 0 5px;
@@ -275,10 +275,10 @@ button i[class^="fa"] {
 p.lead {
   margin-bottom: 40px;
 }
-section,
-div.section {
-  /*margin-bottom: 40px;*/
-}
+/* section, */
+/* div.section { */
+  /* margin-bottom: 40px; */
+/* } */
 .no-mb {
   margin-bottom: 0 !important;
 }
@@ -512,9 +512,9 @@ ul.list-style-none {
   border-top: solid 5px transparent;
   height: 62px;
 }
-.navbar ul.nav > li > a:hover {
+/* .navbar ul.nav > li > a:hover { */
   /*border-bottom: solid 4px #5a9b83;*/
-}
+/* } */
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
@@ -4294,6 +4294,15 @@ p.start {
   width: 1290px;
   margin: 0 auto;
   padding: 0 0 40px;
+}
+.bg {
+  height: 500px;
+  width: 100%;
+  background-color: #fafafb;
+}
+
+.home_whyOpenLK .item02 {
+  width: 1290px;
 }
 
 .home_whyOpenLK .item .video {
