@@ -10,7 +10,7 @@ $($(window).scroll(function (){
                 $(".book-toc nav").css({
                     "position": "fixed",
                     "top": "120px",
-                    "right": $(".markdown").offset().right - $("#TableOfContents").innerWidth(),
+                    "left": $(".markdown").offset().left + $(".markdown").innerWidth() + 75 + "px",
                     "bottom": "unset"
                 })
             }else{
