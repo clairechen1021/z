@@ -1,6 +1,7 @@
 ---
 bookCollapseSection: true
 weight: 20
+title: Release Notes
 ---
 
 # Ubi loqui

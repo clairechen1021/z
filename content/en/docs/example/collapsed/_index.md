@@ -1,6 +1,7 @@
 ---
 bookCollapseSection: true
-weight: 20
+weight: 2
+title: QuickStart
 ---
 
 # Collapsed Level of Menu
