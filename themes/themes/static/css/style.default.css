@@ -2274,12 +2274,13 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar .container .col-md-6 ul li a {
   font-size: 24px;
-  font-width: 600;
+  /* font-width: 600; */
   line-height: 34px;
-  color: #000;
+  color: #555555;
 }
 .bar .container .col-md-6 ul li a p {
   margin-top: 25px;
+  margin-bottom: 0;
 }
 .bar .container .col-md-6 ul li a:hover, :focus{
   text-decoration: none;
@@ -4277,8 +4278,6 @@ p.start {
 /* -----------------------------------home_why_OpenLooKeng模块------------------------- */
 .home_whyOpenLK {
   width: 100%;
-  /* height: 2280px; */
-  /* background-color: #ccc; */
   margin: 100px auto 0;
   text-align: center;
   font-family:Helvetica;
@@ -4292,47 +4291,58 @@ p.start {
 
 .home_whyOpenLK .item {
   height: 500px;
-  width: 100%;
-  position: relative;
-  background-color: #FFFFFF;
+  width: 1290px;
+  margin: 0 auto;
+  padding: 50px 0 40px;
 }
 
-.home_whyOpenLK .item02 {
-  background-color: #FAFAFB;
-}
 .home_whyOpenLK .item .video {
-  /* width: 37.6%; */
-  width: 722px;
-  position: absolute;
-  top: 50px;
-  left: 16.4%;
+  display: inline-block;
+  width: 650px;
+  height: 406px;
+  margin-right: 113px;
+}
+.home_whyOpenLK .item .video02 {
+  display: inline-block;
+  width: 650px;
+  height: 406px;
+  margin-left: 113px;
 }
 
-.home_whyOpenLK .item .title {
+.home_whyOpenLK .item .item_right {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  margin-top: 164px;
+  overflow: hidden;
+}
+.home_whyOpenLK .item .item_left {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  margin-top: 164px;
+  overflow: hidden;
+}
+
+.home_whyOpenLK .item .item_right .title,
+.home_whyOpenLK .item .item_left .title {
   margin-top: 0;
   text-align: left;
   margin-bottom: 0;
-  width: 19.2%;
-  position: absolute;
-  top: 164px;
-  left: 60%;
   font-size:24px;
   font-family:Helvetica;
   color:rgba(0,0,0,1);
   line-height:34px;
 }
-.home_whyOpenLK .item .descr {
+.home_whyOpenLK .item .item_right .descr,
+.home_whyOpenLK .item .item_left .descr  {
   text-align: left;
-  position: absolute;
-  top: 228px;
-  left: 60%;
-  width: 19.2%;
-  /* height:110px; */
   font-size:16px;
   font-family:Helvetica-Light,Helvetica;
   font-weight:300;
   color:rgba(0,0,0,1);
   line-height:22px;
+  margin-top: 30px;
 }
 
 .home_whyOpenLK .descr .descr_item {
@@ -5072,5 +5082,5 @@ p.home_news .tag a {
 }
 
 .blog_footer {
-  height: 680px;
+  height: 820px;
 }
