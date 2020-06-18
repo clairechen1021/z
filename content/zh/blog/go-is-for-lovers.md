@@ -6,6 +6,7 @@ categories = ["programming"]
 banner = "img/banners/banner-2.jpg"
 facebook_author = "GolangSociety"
 description = "It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website."
+author = "GolangSociety"
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

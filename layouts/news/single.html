@@ -12,7 +12,7 @@
                 <div class="relative_info">
                     <span class="author">{{ .Params.author }}</span>
                     <div class="line"></div>
-                    <span class="date">{{ .Params.data }}</span>
+                    <span class="date">{{ .Date.Format .Site.Params.date_format }}</span>
                 </div>
                 {{ .Content }}
             </div>

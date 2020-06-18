@@ -1650,7 +1650,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-weight:300;
   color:rgba(0,0,0,1);
   line-height:16px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .news-card .container .post .author-category .line {
   width:1px;
@@ -1660,6 +1660,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 15px;
   display: inline-block;
   vertical-align: middle;
+}
+.news-card .container .post .author-category .news-date{
+  color: #555555;
 }
 .news-card .container .post .date-comments a {
   color: #000;
@@ -2567,8 +2570,8 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 #blog-listing-medium .post .clearfix{
-  margin-top: 22px;
-  margin-bottom: 20px;
+  margin-top: 11px;
+  margin-bottom: 10px;
 }
 #blog-listing-medium .post .author a {
   font-weight: 500;

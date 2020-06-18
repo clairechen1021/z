@@ -2,7 +2,7 @@
 title = "News1"
 author = "AUTHOR, MEDIA"
 id = "news1"
-data = "2020-7-7"
+date = "2015-06-24T13:50:46+02:00"
 summary = "Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2. Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2.Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2.Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2."
 +++
 

@@ -3,7 +3,7 @@ title = "News Titile News Titile News Titile News Titile"
 author = "Mikolaj Dobrucki"
 media = "MEDIA"
 id = "news2"
-data = "JUL 7, 2020"
+date = "2015-06-24T13:50:46+02:00"
 summary = "Mulan Permissive Software License v2 has got accepted by OSI, thus openEuler community is planning to upgrade the license from Mulan PSL v1 to v2."
 +++
 
