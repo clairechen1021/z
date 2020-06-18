@@ -4293,7 +4293,15 @@ p.start {
   height: 500px;
   width: 1290px;
   margin: 0 auto;
-  padding: 50px 0 40px;
+  padding: 0 0 40px;
+}
+.home_whyOpenLK .item02 {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 315px 44px 445px;
+  background-color: #FAFAFB;
+
 }
 
 .home_whyOpenLK .item .video {
