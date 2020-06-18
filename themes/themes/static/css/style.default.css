@@ -5082,5 +5082,15 @@ p.home_news .tag a {
 }
 
 .blog_footer {
+<<<<<<< HEAD
   height: 820px;
 }
+=======
+  height: 680px;
+}
+/* docs */
+.book-toc{
+  position: relative;
+  left: 60px;
+}
+>>>>>>> 1a791f913d652f219efd0f9a8d5308b85bdf1156
